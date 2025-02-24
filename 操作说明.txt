@@ -1,0 +1,22 @@
+// 创建本地SSh密钥（一台电脑只需要搞一次）
+ssh-keygen -t rsa -C <email@xx.com>
+/创建Github仓库（不要修改分支）
+https://github.com
+// 初始化
+git init
+// 选择文件
+git add .
+// 修改描述
+git commit -m "first commit"
+// 修改.git中的config文件,在最下面加
+[user]
+email=<email@xx.com>
+name=<github name>
+// 查看本地分支
+git branch
+// 如果分支不存在，可以使用以下命令创建并切换到该分支
+git checkout -b <name>
+// 连接仓库
+git remote add origin <url>
+// 选择分支
+git push -u origin <name>
