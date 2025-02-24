@@ -1,0 +1,2 @@
+execute if data block 0 0 0 Items[0].tag.ctmp{type:"soldier_0"} run summon armor_stand 0 11 0 {DisabledSlots:16191,NoAI:true,Tags:["soldier_0","stmp-1","soldier","result"],ArmorItems:[{},{},{},{id:"minecraft:leather_helmet",Count:1b,tag:{Unbreakable:1b}}]}
+execute if data block 0 0 0 Items[0].tag.ctmp{type:"soldier_1"} run summon iron_golem 0 11 0 {NoAI:true,Tags:["soldier_0","stmp-1","soldier","result"],ArmorItems:[{},{},{},{id:"minecraft:leather_helmet",Count:1b,tag:{Unbreakable:1b}}]}

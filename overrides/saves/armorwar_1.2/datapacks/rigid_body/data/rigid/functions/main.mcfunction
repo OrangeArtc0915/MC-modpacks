@@ -1,0 +1,28 @@
+execute unless entity @s[tag=rigid_set] run function rigid:set
+execute unless data entity @s Pose.Head run data modify entity @s Pose.Head set value [0.0f,0.0f,0.001f]
+execute store result entity @s Pose.Head[0] float 0.0001 run scoreboard players get @s rigid_phi0
+execute store result entity @s Pose.Head[1] float 0.0001 run scoreboard players get @s rigid_phi1
+execute store result entity @s Pose.Head[2] float 0.0001 run scoreboard players get @s rigid_phi2
+
+
+#判断是否需要转动
+scoreboard players set temp int 0
+execute unless score @s omega_u matches 0 run scoreboard players set temp int 1
+execute unless score @s omega_v matches 0 run scoreboard players set temp int 1
+execute unless score @s omega_w matches 0 run scoreboard players set temp int 1
+execute if score temp int matches 1 run function rigid:rotate
+scoreboard players set temp int 0
+execute unless score @s phi_a0 matches 0 run scoreboard players set temp int 1
+execute unless score @s phi_a1 matches 0 run scoreboard players set temp int 1
+execute unless score @s phi_l0 matches 0 run scoreboard players set temp int 1
+execute unless score @s phi_l1 matches 0 run scoreboard players set temp int 1
+execute if score temp int matches 1 run function rigid:rotate1
+execute if score temp int matches 0 run function rigid:rotate0
+
+#判断是否需要平动
+scoreboard players set temp int 0
+execute unless score @s volecity_u matches 0 run scoreboard players set temp int 1
+execute unless score @s volecity_v matches 0 run scoreboard players set temp int 1
+execute unless score @s volecity_w matches 0 run scoreboard players set temp int 1
+execute if score temp int matches 0 run data modify entity @s[tag=noG] NoGravity set value 1b
+execute if score temp int matches 1 run function rigid:move

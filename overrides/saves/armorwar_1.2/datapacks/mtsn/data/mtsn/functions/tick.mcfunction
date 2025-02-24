@@ -1,0 +1,1 @@
+execute as @e[tag=wave_spawning] run function mtsn:main

@@ -1,0 +1,10 @@
+execute unless data entity @s Inventory[{Slot:0b}].tag.ui run replaceitem entity @s hotbar.0 air
+execute unless data entity @s Inventory[{Slot:1b}].tag.ui run replaceitem entity @s hotbar.1 air
+execute unless data entity @s Inventory[{Slot:2b}].tag.ui run replaceitem entity @s hotbar.2 air
+execute unless data entity @s Inventory[{Slot:3b}].tag.ui run replaceitem entity @s hotbar.3 air
+execute unless data entity @s Inventory[{Slot:4b}].tag.ui run replaceitem entity @s hotbar.4 air
+execute unless data entity @s Inventory[{Slot:5b}].tag.ui run replaceitem entity @s hotbar.5 air
+execute unless data entity @s Inventory[{Slot:6b}].tag.ui run replaceitem entity @s hotbar.6 air
+execute unless data entity @s Inventory[{Slot:7b}].tag.ui run replaceitem entity @s hotbar.7 air
+execute unless data entity @s Inventory[{Slot:8b}].tag.ui run replaceitem entity @s hotbar.8 air
+execute unless data entity @s Inventory[{Slot:-106b}].tag.ui run replaceitem entity @s weapon.offhand air

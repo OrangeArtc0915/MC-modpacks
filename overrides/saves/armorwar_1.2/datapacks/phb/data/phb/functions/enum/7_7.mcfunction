@@ -1,0 +1,1 @@
+data modify entity @s CustomName set value '{"translate":"health.r.7","font":"healthbar:27"}'

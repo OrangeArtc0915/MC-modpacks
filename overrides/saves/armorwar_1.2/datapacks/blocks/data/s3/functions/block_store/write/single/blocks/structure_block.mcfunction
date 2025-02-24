@@ -1,0 +1,5 @@
+data modify storage temp block_store.id set value "minecraft:structure_block"
+execute if block ~ ~ ~ minecraft:structure_block[mode=save] run data modify storage temp block_store.state.mode set value "save"
+execute if block ~ ~ ~ minecraft:structure_block[mode=load] run data modify storage temp block_store.state.mode set value "load"
+execute if block ~ ~ ~ minecraft:structure_block[mode=corner] run data modify storage temp block_store.state.mode set value "corner"
+execute if block ~ ~ ~ minecraft:structure_block[mode=data] run data modify storage temp block_store.state.mode set value "data"

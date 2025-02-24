@@ -1,0 +1,20 @@
+execute store result score temp int run data get storage psp:result self.tutor[0].req[0]
+execute if score temp int matches 0 run function tutor:reqs/0
+execute if score temp int matches 1 run function tutor:reqs/1
+execute if score temp int matches 2 run function tutor:reqs/2
+execute if score temp int matches 3 run function tutor:reqs/3
+execute if score temp int matches 4 run function tutor:reqs/4
+execute if score temp int matches 5 run function tutor:reqs/5
+execute if score temp int matches 6 run function tutor:reqs/6
+execute if score temp int matches 7 run function tutor:reqs/7
+execute if score temp int matches 8 run function tutor:reqs/8
+execute if score temp int matches 9 run function tutor:reqs/9
+execute if score temp int matches 10 run function tutor:reqs/10
+execute if score temp int matches 11 run function tutor:reqs/11
+execute if score temp int matches 12 run function tutor:reqs/12
+execute if score temp int matches 13 run function tutor:reqs/13
+execute if score temp int matches 14 run function tutor:reqs/14
+execute if score temp int matches 15 run function tutor:reqs/15
+execute if score temp int matches 16 run function tutor:reqs/16
+execute if score temp int matches 17 run function tutor:reqs/17
+execute if score temp int matches 18 run function tutor:reqs/18

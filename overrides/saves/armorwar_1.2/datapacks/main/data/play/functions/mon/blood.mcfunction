@@ -1,0 +1,2 @@
+execute if score temp int matches 60.. anchored eyes run particle minecraft:block minecraft:redstone_block ^ ^-0.3 ^ 0.2 0.2 0.2 0.05 40
+execute if score temp int matches 100.. anchored eyes run particle minecraft:block minecraft:redstone_block ^ ^-0.3 ^ 0.2 0.2 0.2 0.05 60

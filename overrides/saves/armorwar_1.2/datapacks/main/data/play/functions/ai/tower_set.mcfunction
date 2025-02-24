@@ -1,0 +1,16 @@
+execute if score @s build matches 1 run function play:ai/tower_set/1
+execute if score @s build matches 2 run function play:ai/tower_set/2
+execute if score @s build matches 3 run function play:ai/tower_set/3
+execute if score @s build matches 4 run function play:ai/tower_set/4
+execute if score @s build matches 5 run function play:ai/tower_set/5
+execute if score @s build matches 6 run function play:ai/tower_set/6
+execute if score @s build matches 7 run function play:ai/tower_set/7
+execute if score @s build matches 8 run function play:ai/tower_set/8
+execute if score @s build matches 9 run function play:ai/tower_set/9
+execute if score @s build matches 10 run function play:ai/tower_set/10
+execute if score @s build matches 11 run function play:ai/tower_set/11
+execute if score @s build matches 12 run function play:ai/tower_set/12
+execute if score @s build matches 13 run function play:ai/tower_set/13
+execute if score @s build matches 14 run function play:ai/tower_set/14
+execute if score @s build matches 15 run function play:ai/tower_set/15
+execute if score @s build matches 16 run function play:ai/tower_set/16

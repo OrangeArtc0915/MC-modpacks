@@ -1,0 +1,6 @@
+data modify storage temp block_store.id set value "minecraft:chain"
+execute if block ~ ~ ~ minecraft:chain[axis=x] run data modify storage temp block_store.state.axis set value "x"
+execute if block ~ ~ ~ minecraft:chain[axis=y] run data modify storage temp block_store.state.axis set value "y"
+execute if block ~ ~ ~ minecraft:chain[axis=z] run data modify storage temp block_store.state.axis set value "z"
+execute if block ~ ~ ~ minecraft:chain[waterlogged=true] run data modify storage temp block_store.state.waterlogged set value "true"
+execute if block ~ ~ ~ minecraft:chain[waterlogged=false] run data modify storage temp block_store.state.waterlogged set value "false"

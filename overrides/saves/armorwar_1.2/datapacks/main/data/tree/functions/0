@@ -1,0 +1,20 @@
+sapling
+root
+trunk
+crown
+leave
+light
+/data modify block 0 0 0 Items[0].tag.tree set value [{pos:[0.5d,8.5d,331.5d],tags:["tree_aec","tree_sapling"]}]
+
+data modify block 0 0 0 Items[0].tag.tree3 set value [
+
+{name:"关卡1-2",towers:0,if_chal:0},
+{name:"关卡1-3",towers:2,stars:2,hero:0,if_chal:0},
+{name:"关卡1-3",towers:1,if_chal:0},
+{name:"关卡1-4",tower_type:1,stars:3,hero:0,if_chal:0},
+{name:"雪原",tower_type:3,if_chal:0},
+{name:"火山坑",towers:3,if_chal:0},
+{name:"荒漠",tower_type:2,if_chal:0},
+{name:"夜袭",stars:2,if_chal:0}
+
+]

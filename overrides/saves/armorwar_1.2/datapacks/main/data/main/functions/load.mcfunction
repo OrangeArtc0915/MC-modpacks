@@ -1,0 +1,1 @@
+scoreboard objectives add lg minecraft.custom:minecraft.leave_game

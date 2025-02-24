@@ -1,0 +1,6 @@
+execute if data storage temp block_store{state: {"facing": "north"}} run setblock ~ ~ ~ minecraft:end_rod[facing=north]
+execute if data storage temp block_store{state: {"facing": "east"}} run setblock ~ ~ ~ minecraft:end_rod[facing=east]
+execute if data storage temp block_store{state: {"facing": "south"}} run setblock ~ ~ ~ minecraft:end_rod[facing=south]
+execute if data storage temp block_store{state: {"facing": "west"}} run setblock ~ ~ ~ minecraft:end_rod[facing=west]
+execute if data storage temp block_store{state: {"facing": "up"}} run setblock ~ ~ ~ minecraft:end_rod[facing=up]
+execute if data storage temp block_store{state: {"facing": "down"}} run setblock ~ ~ ~ minecraft:end_rod[facing=down]

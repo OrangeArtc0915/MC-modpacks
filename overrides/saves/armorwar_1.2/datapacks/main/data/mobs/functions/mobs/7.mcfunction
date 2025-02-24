@@ -1,0 +1,5 @@
+execute if data block 0 0 0 Items[0].tag.ctmp{type:"creeper"} run summon creeper 0 11 0 {NoAI:true,Tags:["creeper","stmp","monster","result"],ArmorItems:[{},{},{},{id:"minecraft:leather_helmet",Count:1b,tag:{Unbreakable:1b}}]}
+execute if data block 0 0 0 Items[0].tag.ctmp{type:"drowned"} run summon drowned 0 11 0 {NoAI:true,Tags:["drowned","stmp","monster","result"],ArmorItems:[{},{},{},{id:"minecraft:leather_helmet",Count:1b,tag:{Unbreakable:1b}}]}
+execute if data block 0 0 0 Items[0].tag.ctmp{type:"phantom"} run summon phantom 0 11 0 {NoAI:true,Tags:["phantom","stmp","monster","result"],ArmorItems:[{},{},{},{id:"minecraft:leather_helmet",Count:1b,tag:{Unbreakable:1b}}]}
+execute if data block 0 0 0 Items[0].tag.ctmp{type:"ravager"} run summon ravager 0 11 0 {NoAI:true,Tags:["ravager","stmp","monster","result"],ArmorItems:[{},{},{},{id:"minecraft:leather_helmet",Count:1b,tag:{Unbreakable:1b}}]}
+execute if data block 0 0 0 Items[0].tag.ctmp{type:"chicken"} run summon chicken 0 11 0 {NoAI:true,Tags:["chicken","stmp","monster","result"],ArmorItems:[{},{},{},{id:"minecraft:leather_helmet",Count:1b,tag:{Unbreakable:1b}}]}

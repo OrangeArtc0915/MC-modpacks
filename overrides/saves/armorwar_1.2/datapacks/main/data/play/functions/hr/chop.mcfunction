@@ -1,0 +1,2 @@
+execute if score @s hr matches 1 if data entity @s SelectedItem.tag.weapon_near run function play:hr/skills/1_-2
+execute if score @s hr matches 2 if data entity @s SelectedItem.tag.weapon_near run function play:hr/skills/2_-2

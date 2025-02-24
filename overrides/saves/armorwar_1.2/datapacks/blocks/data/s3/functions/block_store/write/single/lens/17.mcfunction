@@ -1,0 +1,17 @@
+execute if block ~ ~ ~ minecraft:granite run function s3:block_store/write/single/blocks/granite
+execute if block ~ ~ ~ minecraft:diorite run function s3:block_store/write/single/blocks/diorite
+execute if block ~ ~ ~ minecraft:bedrock run function s3:block_store/write/single/blocks/bedrock
+execute if block ~ ~ ~ minecraft:oak_log run function s3:block_store/write/single/blocks/oak_log
+execute if block ~ ~ ~ minecraft:red_bed run function s3:block_store/write/single/blocks/red_bed
+execute if block ~ ~ ~ minecraft:spawner run function s3:block_store/write/single/blocks/spawner
+execute if block ~ ~ ~ minecraft:furnace run function s3:block_store/write/single/blocks/furnace
+execute if block ~ ~ ~ minecraft:jukebox run function s3:block_store/write/single/blocks/jukebox
+execute if block ~ ~ ~ minecraft:pumpkin run function s3:block_store/write/single/blocks/pumpkin
+execute if block ~ ~ ~ minecraft:carrots run function s3:block_store/write/single/blocks/carrots
+execute if block ~ ~ ~ minecraft:dropper run function s3:block_store/write/single/blocks/dropper
+execute if block ~ ~ ~ minecraft:barrier run function s3:block_store/write/single/blocks/barrier
+execute if block ~ ~ ~ minecraft:end_rod run function s3:block_store/write/single/blocks/end_rod
+execute if block ~ ~ ~ minecraft:conduit run function s3:block_store/write/single/blocks/conduit
+execute if block ~ ~ ~ minecraft:lectern run function s3:block_store/write/single/blocks/lectern
+execute if block ~ ~ ~ minecraft:lantern run function s3:block_store/write/single/blocks/lantern
+execute if block ~ ~ ~ minecraft:beehive run function s3:block_store/write/single/blocks/beehive

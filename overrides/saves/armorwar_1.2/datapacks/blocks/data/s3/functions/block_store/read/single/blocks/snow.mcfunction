@@ -1,0 +1,8 @@
+execute if data storage temp block_store{state: {"layers": "1"}} run setblock ~ ~ ~ minecraft:snow[layers=1]
+execute if data storage temp block_store{state: {"layers": "2"}} run setblock ~ ~ ~ minecraft:snow[layers=2]
+execute if data storage temp block_store{state: {"layers": "3"}} run setblock ~ ~ ~ minecraft:snow[layers=3]
+execute if data storage temp block_store{state: {"layers": "4"}} run setblock ~ ~ ~ minecraft:snow[layers=4]
+execute if data storage temp block_store{state: {"layers": "5"}} run setblock ~ ~ ~ minecraft:snow[layers=5]
+execute if data storage temp block_store{state: {"layers": "6"}} run setblock ~ ~ ~ minecraft:snow[layers=6]
+execute if data storage temp block_store{state: {"layers": "7"}} run setblock ~ ~ ~ minecraft:snow[layers=7]
+execute if data storage temp block_store{state: {"layers": "8"}} run setblock ~ ~ ~ minecraft:snow[layers=8]

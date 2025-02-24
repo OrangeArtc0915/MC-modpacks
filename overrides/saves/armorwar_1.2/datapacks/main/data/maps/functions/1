@@ -1,0 +1,13 @@
+{metadata:"",mirror:"NONE",ignoreEntities:1b,powered:0b,seed:0L,author:"xiaodou123",rotation:"NONE",posX:0,mode:"LOAD",posY:2,sizeX:19,posZ:0,integrity:1.0f,showair:0b,name:"minecraft:chapter0",sizeY:5,sizeZ:19,showboundingbox:1b}
+chapters:[{maps:[{id:1,pos:[0.0d,0.0d,0.0d]}],structure_block:{}}]
+
+{locked:0b,stars:0,rewards:[{type:"hero",msg:'{}',value:0}]}
+
+data modify block 0 0 0 Items[0].tag.chapters set value [
+{name:'{"text":"制作中"}',maps:[{}],entity:{silent:1b,type:"witch",hand0:34,size:[0.5d,2.0d,0.5d]},structure_block:{metadata:"",mirror:"NONE",ignoreEntities:1b,powered:1b,seed:0L,author:"?",rotation:"NONE",posX:0,mode:"LOAD",posY:1,sizeX:19,posZ:0,integrity:1.0f,showair:0b,name:"minecraft:chapter0",sizeY:6,sizeZ:19,showboundingbox:1b}},
+{name:'{"text":"自定义"}',maps:[{}],entity:{silent:1b,type:"piglin",hand0:4,size:[0.5d,2.0d,0.5d]},structure_block:{metadata:"",mirror:"NONE",ignoreEntities:1b,powered:1b,seed:0L,author:"?",rotation:"NONE",posX:0,mode:"LOAD",posY:1,sizeX:19,posZ:0,integrity:1.0f,showair:0b,name:"minecraft:chapter1",sizeY:6,sizeZ:19,showboundingbox:1b}},
+{name:'{"text":"第一章"}',maps:[{}],entity:{silent:1b,type:"zombie",hand0:2,size:[0.5d,2.0d,0.5d]},structure_block:{metadata:"",mirror:"NONE",ignoreEntities:1b,powered:1b,seed:0L,author:"?",rotation:"NONE",posX:0,mode:"LOAD",posY:1,sizeX:19,posZ:0,integrity:1.0f,showair:0b,name:"minecraft:chapter2",sizeY:6,sizeZ:19,showboundingbox:1b}}
+]
+
+data modify storage math:io input set value '[{"nbt":"input","storage":"math:io","interpret":true},{"text":"h"}]'
+tellraw @a {"nbt":"input","storage":"math:io","interpret":true}

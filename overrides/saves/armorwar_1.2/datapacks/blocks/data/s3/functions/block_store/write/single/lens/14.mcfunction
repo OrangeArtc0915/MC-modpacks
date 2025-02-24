@@ -1,0 +1,13 @@
+execute if block ~ ~ ~ minecraft:dirt run function s3:block_store/write/single/blocks/dirt
+execute if block ~ ~ ~ minecraft:lava run function s3:block_store/write/single/blocks/lava
+execute if block ~ ~ ~ minecraft:sand run function s3:block_store/write/single/blocks/sand
+execute if block ~ ~ ~ minecraft:fern run function s3:block_store/write/single/blocks/fern
+execute if block ~ ~ ~ minecraft:fire run function s3:block_store/write/single/blocks/fire
+execute if block ~ ~ ~ minecraft:rail run function s3:block_store/write/single/blocks/rail
+execute if block ~ ~ ~ minecraft:snow run function s3:block_store/write/single/blocks/snow
+execute if block ~ ~ ~ minecraft:clay run function s3:block_store/write/single/blocks/clay
+execute if block ~ ~ ~ minecraft:cake run function s3:block_store/write/single/blocks/cake
+execute if block ~ ~ ~ minecraft:vine run function s3:block_store/write/single/blocks/vine
+execute if block ~ ~ ~ minecraft:kelp run function s3:block_store/write/single/blocks/kelp
+execute if block ~ ~ ~ minecraft:loom run function s3:block_store/write/single/blocks/loom
+execute if block ~ ~ ~ minecraft:bell run function s3:block_store/write/single/blocks/bell

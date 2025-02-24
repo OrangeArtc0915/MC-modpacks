@@ -1,0 +1,1 @@
+data modify block 0 0 0 Items[0].tag.enemy_pages set value [[1,5,6,22],[11,14,20,21],[2,7,8,25],[3,15,23,24],[4,9,16,17]]

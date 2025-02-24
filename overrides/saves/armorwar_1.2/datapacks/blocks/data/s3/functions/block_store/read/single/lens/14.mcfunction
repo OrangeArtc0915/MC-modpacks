@@ -1,0 +1,13 @@
+execute if data storage temp block_store{id:"minecraft:dirt"} run function s3:block_store/read/single/blocks/dirt
+execute if data storage temp block_store{id:"minecraft:lava"} run function s3:block_store/read/single/blocks/lava
+execute if data storage temp block_store{id:"minecraft:sand"} run function s3:block_store/read/single/blocks/sand
+execute if data storage temp block_store{id:"minecraft:fern"} run function s3:block_store/read/single/blocks/fern
+execute if data storage temp block_store{id:"minecraft:fire"} run function s3:block_store/read/single/blocks/fire
+execute if data storage temp block_store{id:"minecraft:rail"} run function s3:block_store/read/single/blocks/rail
+execute if data storage temp block_store{id:"minecraft:snow"} run function s3:block_store/read/single/blocks/snow
+execute if data storage temp block_store{id:"minecraft:clay"} run function s3:block_store/read/single/blocks/clay
+execute if data storage temp block_store{id:"minecraft:cake"} run function s3:block_store/read/single/blocks/cake
+execute if data storage temp block_store{id:"minecraft:vine"} run function s3:block_store/read/single/blocks/vine
+execute if data storage temp block_store{id:"minecraft:kelp"} run function s3:block_store/read/single/blocks/kelp
+execute if data storage temp block_store{id:"minecraft:loom"} run function s3:block_store/read/single/blocks/loom
+execute if data storage temp block_store{id:"minecraft:bell"} run function s3:block_store/read/single/blocks/bell

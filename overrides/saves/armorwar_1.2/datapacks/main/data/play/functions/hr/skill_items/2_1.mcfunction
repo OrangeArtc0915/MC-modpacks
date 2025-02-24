@@ -1,0 +1,1 @@
+replaceitem entity @s hotbar.3 carrot_on_a_stick{CustomModelData:8597021,ui:1b,skill_1:1b,skill:"poison_fog",display:{Name:'{"text":"§b技能1"}',Lore:['{"text":"释放毒雾","color":"gray","italic":"false"}']}}

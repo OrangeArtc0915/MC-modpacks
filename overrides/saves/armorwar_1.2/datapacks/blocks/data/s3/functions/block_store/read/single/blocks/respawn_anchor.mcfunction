@@ -1,0 +1,5 @@
+execute if data storage temp block_store{state: {"charges": "0"}} run setblock ~ ~ ~ minecraft:respawn_anchor[charges=0]
+execute if data storage temp block_store{state: {"charges": "1"}} run setblock ~ ~ ~ minecraft:respawn_anchor[charges=1]
+execute if data storage temp block_store{state: {"charges": "2"}} run setblock ~ ~ ~ minecraft:respawn_anchor[charges=2]
+execute if data storage temp block_store{state: {"charges": "3"}} run setblock ~ ~ ~ minecraft:respawn_anchor[charges=3]
+execute if data storage temp block_store{state: {"charges": "4"}} run setblock ~ ~ ~ minecraft:respawn_anchor[charges=4]

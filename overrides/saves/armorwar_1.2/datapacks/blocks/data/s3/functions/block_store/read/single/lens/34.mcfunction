@@ -1,0 +1,17 @@
+execute if data storage temp block_store{id:"minecraft:light_blue_stained_glass"} run function s3:block_store/read/single/blocks/light_blue_stained_glass
+execute if data storage temp block_store{id:"minecraft:light_gray_stained_glass"} run function s3:block_store/read/single/blocks/light_gray_stained_glass
+execute if data storage temp block_store{id:"minecraft:white_stained_glass_pane"} run function s3:block_store/read/single/blocks/white_stained_glass_pane
+execute if data storage temp block_store{id:"minecraft:brown_stained_glass_pane"} run function s3:block_store/read/single/blocks/brown_stained_glass_pane
+execute if data storage temp block_store{id:"minecraft:green_stained_glass_pane"} run function s3:block_store/read/single/blocks/green_stained_glass_pane
+execute if data storage temp block_store{id:"minecraft:black_stained_glass_pane"} run function s3:block_store/read/single/blocks/black_stained_glass_pane
+execute if data storage temp block_store{id:"minecraft:orange_glazed_terracotta"} run function s3:block_store/read/single/blocks/orange_glazed_terracotta
+execute if data storage temp block_store{id:"minecraft:yellow_glazed_terracotta"} run function s3:block_store/read/single/blocks/yellow_glazed_terracotta
+execute if data storage temp block_store{id:"minecraft:purple_glazed_terracotta"} run function s3:block_store/read/single/blocks/purple_glazed_terracotta
+execute if data storage temp block_store{id:"minecraft:dead_tube_coral_wall_fan"} run function s3:block_store/read/single/blocks/dead_tube_coral_wall_fan
+execute if data storage temp block_store{id:"minecraft:dead_fire_coral_wall_fan"} run function s3:block_store/read/single/blocks/dead_fire_coral_wall_fan
+execute if data storage temp block_store{id:"minecraft:dead_horn_coral_wall_fan"} run function s3:block_store/read/single/blocks/dead_horn_coral_wall_fan
+execute if data storage temp block_store{id:"minecraft:mossy_stone_brick_stairs"} run function s3:block_store/read/single/blocks/mossy_stone_brick_stairs
+execute if data storage temp block_store{id:"minecraft:mossy_cobblestone_stairs"} run function s3:block_store/read/single/blocks/mossy_cobblestone_stairs
+execute if data storage temp block_store{id:"minecraft:polished_andesite_stairs"} run function s3:block_store/read/single/blocks/polished_andesite_stairs
+execute if data storage temp block_store{id:"minecraft:polished_blackstone_slab"} run function s3:block_store/read/single/blocks/polished_blackstone_slab
+execute if data storage temp block_store{id:"minecraft:polished_blackstone_wall"} run function s3:block_store/read/single/blocks/polished_blackstone_wall

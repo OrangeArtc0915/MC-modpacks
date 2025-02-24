@@ -1,0 +1,15 @@
+execute if data storage temp block_store{id:"minecraft:stone"} run function s3:block_store/read/single/blocks/stone
+execute if data storage temp block_store{id:"minecraft:water"} run function s3:block_store/read/single/blocks/water
+execute if data storage temp block_store{id:"minecraft:glass"} run function s3:block_store/read/single/blocks/glass
+execute if data storage temp block_store{id:"minecraft:grass"} run function s3:block_store/read/single/blocks/grass
+execute if data storage temp block_store{id:"minecraft:poppy"} run function s3:block_store/read/single/blocks/poppy
+execute if data storage temp block_store{id:"minecraft:torch"} run function s3:block_store/read/single/blocks/torch
+execute if data storage temp block_store{id:"minecraft:chest"} run function s3:block_store/read/single/blocks/chest
+execute if data storage temp block_store{id:"minecraft:wheat"} run function s3:block_store/read/single/blocks/wheat
+execute if data storage temp block_store{id:"minecraft:lever"} run function s3:block_store/read/single/blocks/lever
+execute if data storage temp block_store{id:"minecraft:chain"} run function s3:block_store/read/single/blocks/chain
+execute if data storage temp block_store{id:"minecraft:melon"} run function s3:block_store/read/single/blocks/melon
+execute if data storage temp block_store{id:"minecraft:cocoa"} run function s3:block_store/read/single/blocks/cocoa
+execute if data storage temp block_store{id:"minecraft:anvil"} run function s3:block_store/read/single/blocks/anvil
+execute if data storage temp block_store{id:"minecraft:lilac"} run function s3:block_store/read/single/blocks/lilac
+execute if data storage temp block_store{id:"minecraft:peony"} run function s3:block_store/read/single/blocks/peony

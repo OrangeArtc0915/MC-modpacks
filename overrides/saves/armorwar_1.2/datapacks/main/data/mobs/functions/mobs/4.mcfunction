@@ -1,0 +1,1 @@
+execute if data block 0 0 0 Items[0].tag.ctmp{type:"husk"} run summon husk 0 11 0 {NoAI:true,Tags:["husk","stmp","monster","result"],ArmorItems:[{},{},{},{id:"minecraft:leather_helmet",Count:1b,tag:{Unbreakable:1b}}]}

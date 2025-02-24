@@ -1,0 +1,8 @@
+execute if data storage temp block_store{state: {"pickles": "1", "waterlogged": "true"}} run setblock ~ ~ ~ minecraft:sea_pickle[pickles=1,waterlogged=true]
+execute if data storage temp block_store{state: {"pickles": "1", "waterlogged": "false"}} run setblock ~ ~ ~ minecraft:sea_pickle[pickles=1,waterlogged=false]
+execute if data storage temp block_store{state: {"pickles": "2", "waterlogged": "true"}} run setblock ~ ~ ~ minecraft:sea_pickle[pickles=2,waterlogged=true]
+execute if data storage temp block_store{state: {"pickles": "2", "waterlogged": "false"}} run setblock ~ ~ ~ minecraft:sea_pickle[pickles=2,waterlogged=false]
+execute if data storage temp block_store{state: {"pickles": "3", "waterlogged": "true"}} run setblock ~ ~ ~ minecraft:sea_pickle[pickles=3,waterlogged=true]
+execute if data storage temp block_store{state: {"pickles": "3", "waterlogged": "false"}} run setblock ~ ~ ~ minecraft:sea_pickle[pickles=3,waterlogged=false]
+execute if data storage temp block_store{state: {"pickles": "4", "waterlogged": "true"}} run setblock ~ ~ ~ minecraft:sea_pickle[pickles=4,waterlogged=true]
+execute if data storage temp block_store{state: {"pickles": "4", "waterlogged": "false"}} run setblock ~ ~ ~ minecraft:sea_pickle[pickles=4,waterlogged=false]

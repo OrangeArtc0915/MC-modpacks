@@ -1,0 +1,21 @@
+{
+    "values": [
+        "minecraft:granite",
+        "minecraft:diorite",
+        "minecraft:bedrock",
+        "minecraft:oak_log",
+        "minecraft:red_bed",
+        "minecraft:spawner",
+        "minecraft:furnace",
+        "minecraft:jukebox",
+        "minecraft:pumpkin",
+        "minecraft:carrots",
+        "minecraft:dropper",
+        "minecraft:barrier",
+        "minecraft:end_rod",
+        "minecraft:conduit",
+        "minecraft:lectern",
+        "minecraft:lantern",
+        "minecraft:beehive"
+    ]
+}

@@ -1,0 +1,1 @@
+execute as @a[tag=!psp_marked] run function psp:mark

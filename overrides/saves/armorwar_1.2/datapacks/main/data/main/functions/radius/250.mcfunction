@@ -1,0 +1,10 @@
+summon minecraft:armor_stand ~ ~ ~ {Fire:500s,Tags:["killed"],HandItems:[{id:"minecraft:carrot_on_a_stick",Count:1b,Damage:0s,tag:{CustomModelData:44}},{}],Rotation:[180.0f,0.0f]}
+summon minecraft:armor_stand ~ ~ ~ {Fire:500s,Tags:["killed"],HandItems:[{id:"minecraft:carrot_on_a_stick",Count:1b,Damage:0s,tag:{CustomModelData:45}},{}],Rotation:[180.0f,0.0f]}
+summon minecraft:armor_stand ~ ~ ~ {Fire:500s,Tags:["killed"],HandItems:[{id:"minecraft:carrot_on_a_stick",Count:1b,Damage:0s,tag:{CustomModelData:46}},{}],Rotation:[180.0f,0.0f]}
+summon minecraft:armor_stand ~ ~ ~ {Fire:500s,Tags:["killed"],HandItems:[{id:"minecraft:carrot_on_a_stick",Count:1b,Damage:0s,tag:{CustomModelData:47}},{}],Rotation:[180.0f,0.0f]}
+summon minecraft:armor_stand ~ ~ ~ {Fire:500s,Tags:["killed"],HandItems:[{id:"minecraft:carrot_on_a_stick",Count:1b,Damage:0s,tag:{CustomModelData:48}},{}],Rotation:[180.0f,0.0f]}
+summon minecraft:armor_stand ~ ~ ~ {Fire:500s,Tags:["killed"],HandItems:[{id:"minecraft:carrot_on_a_stick",Count:1b,Damage:0s,tag:{CustomModelData:49}},{}],Rotation:[180.0f,0.0f]}
+summon minecraft:armor_stand ~ ~ ~ {Fire:500s,Tags:["killed"],HandItems:[{id:"minecraft:carrot_on_a_stick",Count:1b,Damage:0s,tag:{CustomModelData:50}},{}],Rotation:[180.0f,0.0f]}
+summon minecraft:armor_stand ~ ~ ~ {Fire:500s,Tags:["killed"],HandItems:[{id:"minecraft:carrot_on_a_stick",Count:1b,Damage:0s,tag:{CustomModelData:51}},{}],Rotation:[180.0f,0.0f]}
+summon minecraft:armor_stand ~ ~ ~ {Fire:500s,Tags:["killed"],HandItems:[{id:"minecraft:carrot_on_a_stick",Count:1b,Damage:0s,tag:{CustomModelData:52}},{}],Rotation:[180.0f,0.0f]}
+summon minecraft:armor_stand ~ ~ ~ {Fire:500s,Tags:["killed"],HandItems:[{id:"minecraft:carrot_on_a_stick",Count:1b,Damage:0s,tag:{CustomModelData:53}},{}],Rotation:[180.0f,0.0f]}

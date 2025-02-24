@@ -1,0 +1,117 @@
+https://shimo.im/sheets/Ee32M7GxmMFMPPA2/MODOC
+
+
+execute at @s run summon item ^5.0 ^3.0 ^3.0 {Tags:["mpar_custom","menu","tmp"],NoGravity:1b,Item:{id:"minecraft:barrier",Count:1b,tag:{owner:0,buttons:[
+
+
+{cd:10,id:"minecraft:cobblestone_wall",title:'{"text":"§f←type"}',run_command:"function main:develop/mobs/type/page_up",pos:[1.0,-2.5,0.0]},
+{id:"minecraft:sheep_spawn_egg",title:'{"text":""}',run_command:"function main:develop/mobs/type/tellraw",pos:[3.0,-2.5,0.0],spec:"type_show"},
+{cd:10,id:"minecraft:cobblestone_wall",title:'{"text":"§ftype→"}',run_command:"function main:develop/mobs/type/page_down",pos:[5.0,-2.5,0.0]},
+
+{cd:10,id:"minecraft:end_stone_brick_wall",title:'{"text":"§f←10HP"}',run_command:"function main:develop/mobs/health/m10",pos:[1.0,-3.5,0.0]},
+{cd:5,id:"minecraft:sandstone_wall",title:'{"text":"§f←1HP"}',run_command:"function main:develop/mobs/health/m1",pos:[3.0,-3.5,0.0]},
+{id:"minecraft:end_crystal",title:'{"text":""}',run_command:"function main:develop/mobs/health/tellraw",pos:[5.0,-3.5,0.0],spec:"health_show"},
+{cd:5,id:"minecraft:sandstone_wall",title:'{"text":"§p1HP→"}',run_command:"function main:develop/mobs/health/p1",pos:[7.0,-3.5,0.0]},
+{cd:10,id:"minecraft:end_stone_brick_wall",title:'{"text":"§p10HP→"}',run_command:"function main:develop/mobs/health/p10",pos:[9.0,-3.5,0.0]},
+
+
+{cd:10,id:"minecraft:end_stone_brick_wall",title:'{"text":"§f←10MP"}',run_command:"function main:develop/mobs/mp/m10",pos:[1.0,-2.5,0.0]},
+{cd:5,id:"minecraft:sandstone_wall",title:'{"text":"§f←1MP"}',run_command:"function main:develop/mobs/mp/m1",pos:[2.0,-2.5,0.0]},
+{id:"minecraft:end_crystal",title:'{"text":""}',run_command:"function main:develop/mobs/mp/tellraw",pos:[3.0,-2.5,0.0],spec:"mp_show"},
+{cd:5,id:"minecraft:sandstone_wall",title:'{"text":"§p1MP→"}',run_command:"function main:develop/mobs/mp/p1",pos:[4.0,-2.5,0.0]},
+{cd:10,id:"minecraft:end_stone_brick_wall",title:'{"text":"§p10MP→"}',run_command:"function main:develop/mobs/mp/p10",pos:[5.0,-2.5,0.0]},
+
+{cd:10,id:"minecraft:end_stone_brick_wall",title:'{"text":"§f←10DP"}',run_command:"function main:develop/mobs/pp/m10",pos:[1.0,-3.5,0.0]},
+{cd:5,id:"minecraft:sandstone_wall",title:'{"text":"§f←1DP"}',run_command:"function main:develop/mobs/pp/m1",pos:[2.0,-3.5,0.0]},
+{id:"minecraft:chainmail_chestplate",title:'{"text":""}',run_command:"function main:develop/mobs/pp/tellraw",pos:[3.0,-3.5,0.0],spec:"pp_show"},
+{cd:5,id:"minecraft:sandstone_wall",title:'{"text":"§p1DP→"}',run_command:"function main:develop/mobs/pp/p1",pos:[4.0,-3.5,0.0]},
+{cd:10,id:"minecraft:end_stone_brick_wall",title:'{"text":"§p10DP→"}',run_command:"function main:develop/mobs/pp/p10",pos:[5.0,-3.5,0.0]},
+
+{cd:10,id:"minecraft:end_stone_brick_wall",title:'{"text":"§f←10AT"}',run_command:"function main:develop/mobs/at/m10",pos:[1.0,-2.5,0.0]},
+{cd:5,id:"minecraft:sandstone_wall",title:'{"text":"§f←1AT"}',run_command:"function main:develop/mobs/at/m1",pos:[2.0,-2.5,0.0]},
+{id:"minecraft:iron_sword",title:'{"text":""}',run_command:"function main:develop/mobs/at/tellraw",pos:[3.0,-2.5,0.0],spec:"at_show"},
+{cd:5,id:"minecraft:sandstone_wall",title:'{"text":"§p1AT→"}',run_command:"function main:develop/mobs/at/p1",pos:[4.0,-2.5,0.0]},
+{cd:10,id:"minecraft:end_stone_brick_wall",title:'{"text":"§p10AT→"}',run_command:"function main:develop/mobs/at/p10",pos:[5.0,-2.5,0.0]},
+
+{cd:10,id:"minecraft:end_stone_brick_wall",title:'{"text":"§f←10CD"}',run_command:"function main:develop/mobs/at_cd/m10",pos:[1.0,-3.5,0.0]},
+{cd:5,id:"minecraft:sandstone_wall",title:'{"text":"§f←1CD"}',run_command:"function main:develop/mobs/at_cd/m1",pos:[2.0,-3.5,0.0]},
+{id:"minecraft:anvil",title:'{"text":""}',run_command:"function main:develop/mobs/at_cd/tellraw",pos:[3.0,-3.5,0.0],spec:"at_cd_show"},
+{cd:5,id:"minecraft:sandstone_wall",title:'{"text":"§p1CD→"}',run_command:"function main:develop/mobs/at_cd/p1",pos:[4.0,-3.5,0.0]},
+{cd:10,id:"minecraft:end_stone_brick_wall",title:'{"text":"§p10CD→"}',run_command:"function main:develop/mobs/at_cd/p10",pos:[5.0,-3.5,0.0]},
+
+{cd:10,id:"minecraft:end_stone_brick_wall",title:'{"text":"§f←10RAT"}',run_command:"function main:develop/mobs/rat/m10",pos:[1.0,-2.5,0.0]},
+{cd:5,id:"minecraft:sandstone_wall",title:'{"text":"§f←1RAT"}',run_command:"function main:develop/mobs/rat/m1",pos:[2.0,-2.5,0.0]},
+{id:"minecraft:bow",title:'{"text":""}',run_command:"function main:develop/mobs/rat/tellraw",pos:[3.0,-2.5,0.0],spec:"rat_show"},
+{cd:5,id:"minecraft:sandstone_wall",title:'{"text":"§p1RAT→"}',run_command:"function main:develop/mobs/rat/p1",pos:[4.0,-2.5,0.0]},
+{cd:10,id:"minecraft:end_stone_brick_wall",title:'{"text":"§p10RAT→"}',run_command:"function main:develop/mobs/rat/p10",pos:[5.0,-2.5,0.0]},
+
+{cd:10,id:"minecraft:end_stone_brick_wall",title:'{"text":"§f←10CD"}',run_command:"function main:develop/mobs/rat_cd/m10",pos:[1.0,-3.5,0.0]},
+{cd:5,id:"minecraft:sandstone_wall",title:'{"text":"§f←1CD"}',run_command:"function main:develop/mobs/rat_cd/m1",pos:[2.0,-3.5,0.0]},
+{id:"minecraft:arrow",title:'{"text":""}',run_command:"function main:develop/mobs/rat_cd/tellraw",pos:[3.0,-3.5,0.0],spec:"rat_cd_show"},
+{cd:5,id:"minecraft:sandstone_wall",title:'{"text":"§p1CD→"}',run_command:"function main:develop/mobs/rat_cd/p1",pos:[4.0,-3.5,0.0]},
+{cd:10,id:"minecraft:end_stone_brick_wall",title:'{"text":"§p10CD→"}',run_command:"function main:develop/mobs/rat_cd/p10",pos:[5.0,-3.5,0.0]},
+
+{cd:10,id:"minecraft:end_stone_brick_wall",title:'{"text":"§f←10DIS"}',run_command:"function main:develop/mobs/rat_dis/m10",pos:[1.0,-4.5,0.0]},
+{cd:5,id:"minecraft:sandstone_wall",title:'{"text":"§f←1DIS"}',run_command:"function main:develop/mobs/rat_dis/m1",pos:[2.0,-4.5,0.0]},
+{id:"minecraft:trident",title:'{"text":""}',run_command:"function main:develop/mobs/rat_dis/tellraw",pos:[3.0,-2.5,0.0],spec:"rat_cd_show"},
+{cd:5,id:"minecraft:sandstone_wall",title:'{"text":"§p1DIS→"}',run_command:"function main:develop/mobs/rat_dis/p1",pos:[4.0,-4.5,0.0]},
+{cd:10,id:"minecraft:end_stone_brick_wall",title:'{"text":"§p10DIS→"}',run_command:"function main:develop/mobs/rat_dis/p10",pos:[5.0,-4.5,0.0]},
+
+{cd:10,id:"minecraft:cobblestone_wall",title:'{"text":"§f是远程攻击"}',run_command:"function main:develop/mobs/rat/on",pos:[2.0,-2.5,0.0]},
+{id:"minecraft:tipped_arrow",title:'{"text":""}',run_command:"function main:develop/mobs/rat/tellraws",pos:[3.0,-2.5,0.0],spec:"rat_s_show"},
+{cd:10,id:"minecraft:cobblestone_wall",title:'{"text":"§f否远程攻击"}',run_command:"function main:develop/mobs/rat/off",pos:[4.0,-2.5,0.0]},
+
+{cd:10,id:"minecraft:cobblestone_wall",title:'{"text":"§f是飞行"}',run_command:"function main:develop/mobs/fly/on",pos:[2.0,-3.5,0.0]},
+{id:"minecraft:tipped_arrow",title:'{"text":""}',run_command:"function main:develop/mobs/fly/tellraw",pos:[3.0,-3.5,0.0],spec:"fly_show"},
+{cd:10,id:"minecraft:cobblestone_wall",title:'{"text":"§f否飞行"}',run_command:"function main:develop/mobs/fly/off",pos:[4.0,-3.5,0.0]},
+
+{cd:10,id:"minecraft:end_stone_brick_wall",title:'{"text":"§f←10SP"}',run_command:"function main:develop/mobs/sp/m10",pos:[1.0,-2.5,0.0]},
+{cd:5,id:"minecraft:sandstone_wall",title:'{"text":"§f←1SP"}',run_command:"function main:develop/mobs/sp/m1",pos:[2.0,-2.5,0.0]},
+{id:"minecraft:iron_boots",title:'{"text":""}',run_command:"function main:develop/mobs/sp/tellraw",pos:[3.0,-2.5,0.0],spec:"sp_show"},
+{cd:5,id:"minecraft:sandstone_wall",title:'{"text":"§f1SP→"}',run_command:"function main:develop/mobs/sp/p1",pos:[4.0,-2.5,0.0]},
+{cd:10,id:"minecraft:end_stone_brick_wall",title:'{"text":"§f10SP→"}',run_command:"function main:develop/mobs/sp/p10",pos:[5.0,-2.5,0.0]},
+
+{cd:10,id:"minecraft:end_stone_brick_wall",title:'{"text":"§f←10SP"}',run_command:"function main:develop/mobs/sp/m10",pos:[1.0,-2.5,0.0]},
+{cd:5,id:"minecraft:sandstone_wall",title:'{"text":"§f←1SP"}',run_command:"function main:develop/mobs/sp/m1",pos:[2.0,-2.5,0.0]},
+{id:"minecraft:iron_boots",title:'{"text":""}',run_command:"function main:develop/mobs/sp/tellraw",pos:[3.0,-2.5,0.0],spec:"sp_show"},
+{cd:5,id:"minecraft:sandstone_wall",title:'{"text":"§f1SP→"}',run_command:"function main:develop/mobs/sp/p1",pos:[4.0,-2.5,0.0]},
+{cd:10,id:"minecraft:end_stone_brick_wall",title:'{"text":"§f10SP→"}',run_command:"function main:develop/mobs/sp/p10",pos:[5.0,-2.5,0.0]},
+
+{cd:10,id:"minecraft:end_stone_brick_wall",title:'{"text":"§f←10MHP"}',run_command:"function main:develop/mobs/mhp/m10",pos:[1.0,-3.5,0.0]},
+{cd:5,id:"minecraft:sandstone_wall",title:'{"text":"§f←1MHP"}',run_command:"function main:develop/mobs/mhp/m1",pos:[2.0,-3.5,0.0]},
+{id:"minecraft:iron_boots",title:'{"text":""}',run_command:"function main:develop/mobs/mhp/tellraw",pos:[3.0,-3.5,0.0],spec:"mhp_show"},
+{cd:5,id:"minecraft:sandstone_wall",title:'{"text":"§f1MHP→"}',run_command:"function main:develop/mobs/mhp/p1",pos:[4.0,-3.5,0.0]},
+{cd:10,id:"minecraft:end_stone_brick_wall",title:'{"text":"§f10MHP→"}',run_command:"function main:develop/mobs/mhp/p10",pos:[5.0,-3.5,0.0]},
+
+{cd:10,id:"minecraft:end_stone_brick_wall",title:'{"text":"§f←10REW"}',run_command:"function main:develop/mobs/rew/m10",pos:[1.0,-4.5,0.0]},
+{cd:5,id:"minecraft:sandstone_wall",title:'{"text":"§f←1REW"}',run_command:"function main:develop/mobs/rew/m1",pos:[2.0,-4.5,0.0]},
+{id:"minecraft:gold_block",title:'{"text":""}',run_command:"function main:develop/mobs/rew/tellraw",pos:[3.0,-4.5,0.0],spec:"rew_show"},
+{cd:5,id:"minecraft:sandstone_wall",title:'{"text":"§f1REW→"}',run_command:"function main:develop/mobs/rew/p1",pos:[4.0,-4.5,0.0]},
+{cd:10,id:"minecraft:end_stone_brick_wall",title:'{"text":"§f10REW→"}',run_command:"function main:develop/mobs/rew/p10",pos:[5.0,-4.5,0.0]},
+
+
+{cd:5,id:"minecraft:sandstone_wall",title:'{"text":"§f←1head"}',run_command:"function main:develop/mobs/head/m1",pos:[0.0,-0.5,0.0]},
+{id:"minecraft:glass",title:'{"text":""}',run_command:"function main:develop/mobs/head/tellraw",pos:[0.8,-0.5,0.0],spec:"head_show"},
+{cd:5,id:"minecraft:sandstone_wall",title:'{"text":"§f1head→"}',run_command:"function main:develop/mobs/head/p1",pos:[1.6,-0.5,0.0]},
+
+{cd:5,id:"minecraft:sandstone_wall",title:'{"text":"§f←1chest"}',run_command:"function main:develop/mobs/chest/m1",pos:[3.0,-0.5,0.0]},
+{id:"minecraft:glass",title:'{"text":""}',run_command:"function main:develop/mobs/chest/tellraw",pos:[3.8,-0.5,0.0],spec:"chest_show"},
+{cd:5,id:"minecraft:sandstone_wall",title:'{"text":"§f1chest→"}',run_command:"function main:develop/mobs/chest/p1",pos:[4.6,-0.5,0.0]},
+
+{cd:5,id:"minecraft:sandstone_wall",title:'{"text":"§f←1leg"}',run_command:"function main:develop/mobs/leg/m1",pos:[0.0,-1.5,0.0]},
+{id:"minecraft:glass",title:'{"text":""}',run_command:"function main:develop/mobs/leg/tellraw",pos:[0.8,-1.5,0.0],spec:"leg_show"},
+{cd:5,id:"minecraft:sandstone_wall",title:'{"text":"§f1leg→"}',run_command:"function main:develop/mobs/leg/p1",pos:[1.6,-1.5,0.0]},
+
+{cd:5,id:"minecraft:sandstone_wall",title:'{"text":"§f←1foot"}',run_command:"function main:develop/mobs/foot/m1",pos:[3.0,-1.5,0.0]},
+{id:"minecraft:glass",title:'{"text":""}',run_command:"function main:develop/mobs/foot/tellraw",pos:[3.8,-1.5,0.0],spec:"foot_show"},
+{cd:5,id:"minecraft:sandstone_wall",title:'{"text":"§f1foot→"}',run_command:"function main:develop/mobs/foot/p1",pos:[4.6,-1.5,0.0]},
+
+{cd:5,id:"minecraft:sandstone_wall",title:'{"text":"§f←1hand0"}',run_command:"function main:develop/mobs/hand0/m1",pos:[0.0,-2.5,0.0]},
+{id:"minecraft:glass",title:'{"text":""}',run_command:"function main:develop/mobs/hand0/tellraw",pos:[0.8,-2.5,0.0],spec:"hand0_show"},
+{cd:5,id:"minecraft:sandstone_wall",title:'{"text":"§f1hand0→"}',run_command:"function main:develop/mobs/hand0/p1",pos:[1.6,-2.5,0.0]},
+
+{cd:5,id:"minecraft:sandstone_wall",title:'{"text":"§f←1hand1"}',run_command:"function main:develop/mobs/hand1/m1",pos:[3.0,-2.5,0.0]},
+{id:"minecraft:glass",title:'{"text":""}',run_command:"function main:develop/mobs/hand1/tellraw",pos:[3.8,-2.5,0.0],spec:"hand1_show"},
+{cd:5,id:"minecraft:sandstone_wall",title:'{"text":"§f1hand1→"}',run_command:"function main:develop/mobs/hand1/p1",pos:[4.6,-2.5,0.0]},
+
+]}}}

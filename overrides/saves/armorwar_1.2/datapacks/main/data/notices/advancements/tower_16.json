@@ -1,0 +1,20 @@
+{
+  "parent": "notices:tower_12",
+  "display": {
+    "icon": {
+      "item": "minecraft:carrot_on_a_stick",
+      "nbt": "{CustomModelData:8592004}"
+    },
+    "title": {
+      "text": "神圣秩序"
+    },
+    "description": {
+      "text": "§74级士兵\n§7金币:§6230"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {"notices:notice": {"trigger": "minecraft:impossible"}}
+}

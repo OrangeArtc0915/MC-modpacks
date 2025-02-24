@@ -1,0 +1,9 @@
+execute if entity @s[tag=z1] run function zg1:main1
+execute if entity @s[tag=z2] run function zg1:main2
+execute if entity @s[tag=z3] run function zg1:main3
+execute if entity @s[tag=z4] run function zg1:main4
+execute if entity @s[tag=z5] run function zg2:main1
+execute if entity @s[tag=dz] run function dz:main
+execute if entity @s[tag=jd] run function jd:main
+execute if entity @s[tag=hh] run function hh:main
+execute if entity @s[tag=sw] run function sw:main

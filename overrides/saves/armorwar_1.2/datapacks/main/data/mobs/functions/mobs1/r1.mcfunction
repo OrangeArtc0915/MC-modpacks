@@ -1,0 +1,11 @@
+execute if score temp4 int matches 3 run function mobs:mobs1/r1/3
+execute if score temp4 int matches 4 run function mobs:mobs1/r1/4
+execute if score temp4 int matches 5 run function mobs:mobs1/r1/5
+execute if score temp4 int matches 6 run function mobs:mobs1/r1/6
+execute if score temp4 int matches 7 run function mobs:mobs1/r1/7
+execute if score temp4 int matches 8 run function mobs:mobs1/r1/8
+execute if score temp4 int matches 9 run function mobs:mobs1/r1/9
+execute if score temp4 int matches 10 run function mobs:mobs1/r1/10
+execute if score temp4 int matches 11 run function mobs:mobs1/r1/11
+execute if score temp4 int matches 15 run function mobs:mobs1/r1/15
+execute if score temp4 int matches 16 run function mobs:mobs1/r1/16

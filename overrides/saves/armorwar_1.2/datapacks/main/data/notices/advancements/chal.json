@@ -1,0 +1,17 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:golden_sword",
+      "nbt":"{Enchantments:[{id:\"minecraft:sharpness\",lvl:1s}]}"
+    },
+    "hidden":true,
+    "title": {"text":"挑战已完成！","color":"gold"},
+    "description":{"text":" "},
+    "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true,
+    "criteria": {"notices:notice": {"trigger": "minecraft:impossible"}}
+  }

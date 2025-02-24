@@ -1,0 +1,6 @@
+{
+    "replace": false,
+    "values": [
+        "s3:block_store/load"
+    ]
+}

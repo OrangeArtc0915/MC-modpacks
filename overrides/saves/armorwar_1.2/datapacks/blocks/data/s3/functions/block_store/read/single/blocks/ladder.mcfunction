@@ -1,0 +1,8 @@
+execute if data storage temp block_store{state: {"facing": "north", "waterlogged": "true"}} run setblock ~ ~ ~ minecraft:ladder[facing=north,waterlogged=true]
+execute if data storage temp block_store{state: {"facing": "north", "waterlogged": "false"}} run setblock ~ ~ ~ minecraft:ladder[facing=north,waterlogged=false]
+execute if data storage temp block_store{state: {"facing": "south", "waterlogged": "true"}} run setblock ~ ~ ~ minecraft:ladder[facing=south,waterlogged=true]
+execute if data storage temp block_store{state: {"facing": "south", "waterlogged": "false"}} run setblock ~ ~ ~ minecraft:ladder[facing=south,waterlogged=false]
+execute if data storage temp block_store{state: {"facing": "west", "waterlogged": "true"}} run setblock ~ ~ ~ minecraft:ladder[facing=west,waterlogged=true]
+execute if data storage temp block_store{state: {"facing": "west", "waterlogged": "false"}} run setblock ~ ~ ~ minecraft:ladder[facing=west,waterlogged=false]
+execute if data storage temp block_store{state: {"facing": "east", "waterlogged": "true"}} run setblock ~ ~ ~ minecraft:ladder[facing=east,waterlogged=true]
+execute if data storage temp block_store{state: {"facing": "east", "waterlogged": "false"}} run setblock ~ ~ ~ minecraft:ladder[facing=east,waterlogged=false]

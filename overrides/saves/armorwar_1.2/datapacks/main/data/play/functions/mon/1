@@ -1,0 +1,16 @@
+execute if score monster_notice int matches 1 run replaceitem entity @s hotbar.7 written_book
+
+
+
+{pages:['["",
+{"text":"新敌人！\\n","color": "dark_aqua"},
+{"text":"piglin\\n","color":"red"},
+{"translate":"lau13","font":"pic","color":"white"},
+"\\n\\n\\n\\n\\n\\n\\n","极为值钱的炮灰\\n",
+{"translate":"heart","font":"pic","color":"white"},":350    ",
+{"translate":"attack","font":"pic","color":"white"},":5\\n",
+{"translate":"wk","font":"pic","color":"white"},":低    ",
+{"translate":"mk","font":"pic","color":"white"},":低\\n",
+{"translate":"speed","font":"pic","color":"white"},":慢    ",
+{"translate":"skull","font":"pic","color":"white"},":§c6点生命值\\n"]']
+,title:"有新消息",author:"system",resolved:1b,ui:1b}

@@ -1,0 +1,1 @@
+replaceitem entity @s weapon.offhand arrow{hr2_arrow:1b,ui:1b,display:{Name:'{"text":"§f普通的箭"}',Lore:['{"text":"145点伤害","bold":"true","italic":"false","color":"gray"}']}}

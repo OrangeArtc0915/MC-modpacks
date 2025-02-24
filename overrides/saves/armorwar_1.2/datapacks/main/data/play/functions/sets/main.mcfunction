@@ -1,0 +1,9 @@
+execute if entity @s[tag=build_ai] run function play:ai/main
+execute if entity @s[tag=1-3_fishman] run function play:sets/1-3_fishman
+execute if entity @s[tag=1-4_manaman] run function play:sets/1-4_manaman
+execute if entity @s[tag=1-5_arrow] run function play:sets/1-5_arrow
+execute if entity @s[tag=chal] run function play:chal/main
+execute if entity @s[tag=yx_boat_ticker] run function play:sets/yx_boat
+execute if entity @s[tag=boss1] run function mobs:boss1/main
+execute if entity @s[tag=boss_trigger] if score wave int matches 7 if score wave_time int matches 0 run function play:sets/boss_trigger
+execute if entity @s[tag=zomb] at @s run particle minecraft:campfire_signal_smoke ~ ~1.5 ~ 0.0 0.0 0.0 0 1 force @a

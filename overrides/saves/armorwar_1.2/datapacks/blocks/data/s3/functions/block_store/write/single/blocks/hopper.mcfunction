@@ -1,0 +1,8 @@
+data modify storage temp block_store.id set value "minecraft:hopper"
+execute if block ~ ~ ~ minecraft:hopper[enabled=true] run data modify storage temp block_store.state.enabled set value "true"
+execute if block ~ ~ ~ minecraft:hopper[enabled=false] run data modify storage temp block_store.state.enabled set value "false"
+execute if block ~ ~ ~ minecraft:hopper[facing=down] run data modify storage temp block_store.state.facing set value "down"
+execute if block ~ ~ ~ minecraft:hopper[facing=north] run data modify storage temp block_store.state.facing set value "north"
+execute if block ~ ~ ~ minecraft:hopper[facing=south] run data modify storage temp block_store.state.facing set value "south"
+execute if block ~ ~ ~ minecraft:hopper[facing=west] run data modify storage temp block_store.state.facing set value "west"
+execute if block ~ ~ ~ minecraft:hopper[facing=east] run data modify storage temp block_store.state.facing set value "east"

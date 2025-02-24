@@ -1,0 +1,1 @@
+execute if data entity @s SelectedItem.tag{tower:station} unless entity @e[tag=tower_editing] unless entity @e[tag=tower_selecting] run data remove storage psp:result self.tutor[0].req[0]

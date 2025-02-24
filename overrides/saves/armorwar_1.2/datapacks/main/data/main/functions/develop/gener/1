@@ -1,0 +1,46 @@
+
+#execute at @s positioned ~ ~1.62 ~ run summon item ^0.8 ^ ^1.8 {Tags:["mpar_facing","mpar_custom","menu","tmp"],NoGravity:1b,Item:{id:"minecraft:barrier",Count:1b,tag:{owner:0,buttons:[
+
+
+
+
+
+
+#]}}}
+
+
+{cd:10,id:"minecraft:command_block",title:'{"text":"§怪物波设计"}',run_command:"execute as @a[tag=cbutton] at @s run function main:develop/gener/open_waves",pos:[0.0,-0.5,0.0]}
+
+
+{cd:5,id:"minecraft:cobblestone_wall",title:'{"text":"§f←wave"}',run_command:"function main:develop/gener/waves/page_up",pos:[1.0,-0.5,0.0]},
+
+{cd:5,id:"minecraft:zombie_spawn_egg",title:'{"text":""}',run_command:"execute as @a[tag=cbutton] at @s run function main:develop/gener/waves/edit",pos:[2.0,-0.5,0.0],spec:"waves_show"},
+
+{cd:5,id:"minecraft:cobblestone_wall",title:'{"text":"§fwave→"}',run_command:"function main:develop/gener/waves/page_down",pos:[3.0,-0.5,0.0]},
+
+{cd:5,id:"minecraft:barrier",title:'{"text":"§c返回"}',run_command:"execute as @a[tag=cbutton] at @s run function main:develop/gener/open",pos:[0.0,-0.5,0.0]},
+
+{cd:5,id:"minecraft:lime_wool",title:'{"text":"§f添加波"}',run_command:"execute as @a[tag=cbutton] at @s run function main:develop/gener/waves/add",pos:[1.5,-1.2,0.0]},
+
+{cd:5,id:"minecraft:red_wool",title:'{"text":"§f删除波"}',run_command:"execute as @a[tag=cbutton] at @s run function main:develop/gener/waves/dele",pos:[2.5,-1.2,0.0]},
+
+
+{cd:10,id:"minecraft:barrier",title:'{"text":"§c返回"}',run_command:"execute as @a[tag=cbutton] at @s run function main:develop/gener/open_waves",pos:[0.0,-0.5,0.0]}
+
+
+{cd:10,id:"minecraft:cobblestone_wall",title:'{"text":"§←mob"}',run_command:"execute as @a[tag=cbutton] at @s run function main:develop/gener/mobs/page_up",pos:[1.0,0.2,0.0]}
+{cd:10,id:"minecraft:cobblestone_wall",title:'{"text":"§mob→"}',run_command:"execute as @a[tag=cbutton] at @s run function main:develop/gener/mobs/page_down",pos:[2.0,0.2,0.0]}
+{cd:10,id:"minecraft:nether_star",title:'{"text":""}',run_command:"execute as @a[tag=cbutton] at @s run function main:develop/gener/mobs/edit",pos:[3.0,0.2,0.0],spec:"map_mob_show"}
+
+{cd:5,id:"minecraft:lime_wool",title:'{"text":"§f添加怪物"}',run_command:"execute as @a[tag=cbutton] at @s run function main:develop/gener/waves/mobs/add",pos:[1.5,-1.0,0.0]},
+{cd:5,id:"minecraft:red_wool",title:'{"text":"§f删除怪物"}',run_command:"execute as @a[tag=cbutton] at @s run function main:develop/gener/waves/mobs/dele",pos:[2.5,-1.0,0.0]}
+
+{cd:10,id:"minecraft:cobblestone_wall",title:'{"text":"§←type"}',run_command:"execute as @a[tag=cbutton] at @s run function main:develop/gener/mobs/mob/page_up",pos:[1.0,0.2,0.0]}
+{cd:10,id:"minecraft:cobblestone_wall",title:'{"text":"§type→"}',run_command:"execute as @a[tag=cbutton] at @s run function main:develop/gener/mobs/mob/page_down",pos:[3.0,0.2,0.0]}
+{cd:10,id:"minecraft:nether_star",title:'{"text":""}',pos:[2.0,0.2,0.0],spec:"map_mob_show"}
+
+
+{cd:10,id:"minecraft:white_concrete",title:'{"text":"§f昼夜时间"}',run_command:"execute as @a[tag=cbutton] at @s run function main:develop/gener/time",spec:"map_time_upd",pos:[2.5,-0.5,0.0]}
+
+
+{cd:10,id:"minecraft:target",title:'{"text":"§f模拟游戏"}',run_command:"execute as @a[tag=cbutton] at @s run function main:develop/gener/sim",pos:[4.5,-0.5,0.0]}

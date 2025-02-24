@@ -1,0 +1,7 @@
+data modify storage temp block_store.id set value "minecraft:sea_pickle"
+execute if block ~ ~ ~ minecraft:sea_pickle[pickles=1] run data modify storage temp block_store.state.pickles set value "1"
+execute if block ~ ~ ~ minecraft:sea_pickle[pickles=2] run data modify storage temp block_store.state.pickles set value "2"
+execute if block ~ ~ ~ minecraft:sea_pickle[pickles=3] run data modify storage temp block_store.state.pickles set value "3"
+execute if block ~ ~ ~ minecraft:sea_pickle[pickles=4] run data modify storage temp block_store.state.pickles set value "4"
+execute if block ~ ~ ~ minecraft:sea_pickle[waterlogged=true] run data modify storage temp block_store.state.waterlogged set value "true"
+execute if block ~ ~ ~ minecraft:sea_pickle[waterlogged=false] run data modify storage temp block_store.state.waterlogged set value "false"

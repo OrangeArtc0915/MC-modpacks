@@ -1,0 +1,1 @@
+execute if entity @e[tag=change_station] run data remove storage psp:result self.tutor[0].req[0]

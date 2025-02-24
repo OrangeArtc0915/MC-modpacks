@@ -1,0 +1,33 @@
+{
+    "values": [
+        "minecraft:stripped_spruce_wood",
+        "minecraft:stripped_jungle_wood",
+        "minecraft:stripped_acacia_wood",
+        "minecraft:stone_pressure_plate",
+        "minecraft:birch_pressure_plate",
+        "minecraft:orange_stained_glass",
+        "minecraft:yellow_stained_glass",
+        "minecraft:purple_stained_glass",
+        "minecraft:cracked_stone_bricks",
+        "minecraft:infested_cobblestone",
+        "minecraft:brown_mushroom_block",
+        "minecraft:potted_birch_sapling",
+        "minecraft:dark_prismarine_slab",
+        "minecraft:red_sandstone_stairs",
+        "minecraft:smooth_red_sandstone",
+        "minecraft:lime_concrete_powder",
+        "minecraft:pink_concrete_powder",
+        "minecraft:gray_concrete_powder",
+        "minecraft:cyan_concrete_powder",
+        "minecraft:blue_concrete_powder",
+        "minecraft:dead_brain_coral_fan",
+        "minecraft:brain_coral_wall_fan",
+        "minecraft:smooth_quartz_stairs",
+        "minecraft:end_stone_brick_slab",
+        "minecraft:end_stone_brick_wall",
+        "minecraft:stripped_warped_stem",
+        "minecraft:twisting_vines_plant",
+        "minecraft:potted_warped_fungus",
+        "minecraft:potted_crimson_roots"
+    ]
+}

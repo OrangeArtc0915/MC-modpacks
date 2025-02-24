@@ -1,0 +1,7 @@
+data modify storage temp block_store.id set value "minecraft:furnace"
+execute if block ~ ~ ~ minecraft:furnace[facing=north] run data modify storage temp block_store.state.facing set value "north"
+execute if block ~ ~ ~ minecraft:furnace[facing=south] run data modify storage temp block_store.state.facing set value "south"
+execute if block ~ ~ ~ minecraft:furnace[facing=west] run data modify storage temp block_store.state.facing set value "west"
+execute if block ~ ~ ~ minecraft:furnace[facing=east] run data modify storage temp block_store.state.facing set value "east"
+execute if block ~ ~ ~ minecraft:furnace[lit=true] run data modify storage temp block_store.state.lit set value "true"
+execute if block ~ ~ ~ minecraft:furnace[lit=false] run data modify storage temp block_store.state.lit set value "false"

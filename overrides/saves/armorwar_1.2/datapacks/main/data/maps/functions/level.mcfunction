@@ -1,0 +1,2 @@
+execute unless entity @a[tag=waiting,scores={select=1..3}] run tellraw @a[tag=tmp,limit=1] {"text":"无玩家，未开始游戏","color":"red"}
+execute if entity @a[tag=waiting,scores={select=1..3}] run function maps:start

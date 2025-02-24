@@ -1,0 +1,1 @@
+execute if score @s hr matches 2 run function play:hr/skill_items/2_3

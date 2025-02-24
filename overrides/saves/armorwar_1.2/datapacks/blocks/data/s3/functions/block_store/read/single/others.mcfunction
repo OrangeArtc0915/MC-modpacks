@@ -1,0 +1,32 @@
+# 读取长度
+execute store result score #len tmp run data get storage temp block_store.id
+execute if score #len tmp matches 13 run function s3:block_store/read/single/lens/13
+execute if score #len tmp matches 15 run function s3:block_store/read/single/lens/15
+execute if score #len tmp matches 17 run function s3:block_store/read/single/lens/17
+execute if score #len tmp matches 26 run function s3:block_store/read/single/lens/26
+execute if score #len tmp matches 18 run function s3:block_store/read/single/lens/18
+execute if score #len tmp matches 27 run function s3:block_store/read/single/lens/27
+execute if score #len tmp matches 21 run function s3:block_store/read/single/lens/21
+execute if score #len tmp matches 14 run function s3:block_store/read/single/lens/14
+execute if score #len tmp matches 16 run function s3:block_store/read/single/lens/16
+execute if score #len tmp matches 20 run function s3:block_store/read/single/lens/20
+execute if score #len tmp matches 23 run function s3:block_store/read/single/lens/23
+execute if score #len tmp matches 22 run function s3:block_store/read/single/lens/22
+execute if score #len tmp matches 25 run function s3:block_store/read/single/lens/25
+execute if score #len tmp matches 24 run function s3:block_store/read/single/lens/24
+execute if score #len tmp matches 19 run function s3:block_store/read/single/lens/19
+execute if score #len tmp matches 29 run function s3:block_store/read/single/lens/29
+execute if score #len tmp matches 28 run function s3:block_store/read/single/lens/28
+execute if score #len tmp matches 31 run function s3:block_store/read/single/lens/31
+execute if score #len tmp matches 30 run function s3:block_store/read/single/lens/30
+execute if score #len tmp matches 32 run function s3:block_store/read/single/lens/32
+execute if score #len tmp matches 33 run function s3:block_store/read/single/lens/33
+execute if score #len tmp matches 34 run function s3:block_store/read/single/lens/34
+execute if score #len tmp matches 37 run function s3:block_store/read/single/lens/37
+execute if score #len tmp matches 39 run function s3:block_store/read/single/lens/39
+execute if score #len tmp matches 40 run function s3:block_store/read/single/lens/40
+execute if score #len tmp matches 35 run function s3:block_store/read/single/lens/35
+execute if score #len tmp matches 36 run function s3:block_store/read/single/lens/36
+execute if score #len tmp matches 38 run function s3:block_store/read/single/lens/38
+execute if score #len tmp matches 44 run function s3:block_store/read/single/lens/44
+execute if score #len tmp matches 42 run function s3:block_store/read/single/lens/42

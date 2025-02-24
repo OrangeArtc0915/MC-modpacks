@@ -1,0 +1,1 @@
+summon item ~ ~ ~ {Item:{id:"stone",Count:1b,tag:{command:"execute as @e[tag=scheduler.mark] run say @s",time:30,uuid:[0,1,2,3]}},PickupDelay:32767,Age:-32768,Invulnerable:1b,NoGravity:1b,Tags:["scheduler.item"]}

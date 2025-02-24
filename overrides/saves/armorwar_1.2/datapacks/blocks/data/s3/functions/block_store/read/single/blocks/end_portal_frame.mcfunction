@@ -1,0 +1,8 @@
+execute if data storage temp block_store{state: {"eye": "true", "facing": "north"}} run setblock ~ ~ ~ minecraft:end_portal_frame[eye=true,facing=north]
+execute if data storage temp block_store{state: {"eye": "true", "facing": "south"}} run setblock ~ ~ ~ minecraft:end_portal_frame[eye=true,facing=south]
+execute if data storage temp block_store{state: {"eye": "true", "facing": "west"}} run setblock ~ ~ ~ minecraft:end_portal_frame[eye=true,facing=west]
+execute if data storage temp block_store{state: {"eye": "true", "facing": "east"}} run setblock ~ ~ ~ minecraft:end_portal_frame[eye=true,facing=east]
+execute if data storage temp block_store{state: {"eye": "false", "facing": "north"}} run setblock ~ ~ ~ minecraft:end_portal_frame[eye=false,facing=north]
+execute if data storage temp block_store{state: {"eye": "false", "facing": "south"}} run setblock ~ ~ ~ minecraft:end_portal_frame[eye=false,facing=south]
+execute if data storage temp block_store{state: {"eye": "false", "facing": "west"}} run setblock ~ ~ ~ minecraft:end_portal_frame[eye=false,facing=west]
+execute if data storage temp block_store{state: {"eye": "false", "facing": "east"}} run setblock ~ ~ ~ minecraft:end_portal_frame[eye=false,facing=east]

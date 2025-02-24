@@ -1,0 +1,6 @@
+summon minecraft:zombie 0 256 0 {Brain: {memories: {}}, HurtByTimestamp: 0, Attributes: [{Base: 0.5d, Name: "minecraft:generic.movement_speed"}], FoodLevel: 0b, Invulnerable: 0b, FallFlying: 0b, ForcedAge: 0, Gossips: [], PortalCooldown: 0, AbsorptionAmount: 0.0f, LastRestock: 0L, FallDistance: 0.0f, DeathTime: 0s, Xp: 0, LastGossipDecay: 164931292L, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 0b, Age: 0, Motion: [0.0d, 0.0d, 0.0d], Health: 20.0f, Silent: 1b, LeftHanded: 0b, Air: 300s, OnGround: 0b, NoAI: 1b, Rotation: [0.0f, 0.0f], HandItems: [{}, {}], RestocksToday: 0, ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], Fire: 0s, ArmorItems: [{}, {}, {}, {}], CanPickUpLoot: 1b, VillagerData: {profession: "minecraft:none", level: 1, type: "minecraft:plains"}, HurtTime: 0s, ActiveEffects: [{Ambient: 0b, ShowIcon: 0b, ShowParticles: 0b, Duration: 19999959, Id: 14b, Amplifier: 1b}], Inventory: [],Tags:["save_set","save_set1","tmp"]}
+tp @e[tag=tmp,limit=1] 180 49 29
+tag @e remove tmp
+summon armor_stand 0.0 0.0 0.0 {Tags:["save_set","save_set2","tmp"],Marker:1b,CustomName:'{"text":"导出存档"}',CustomNameVisible:1b}
+tp @e[tag=tmp,limit=1] 180 50.0 29
+tag @e remove tmp

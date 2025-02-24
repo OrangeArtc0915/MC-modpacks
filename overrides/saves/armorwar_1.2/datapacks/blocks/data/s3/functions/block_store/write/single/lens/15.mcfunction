@@ -1,0 +1,15 @@
+execute if block ~ ~ ~ minecraft:stone run function s3:block_store/write/single/blocks/stone
+execute if block ~ ~ ~ minecraft:water run function s3:block_store/write/single/blocks/water
+execute if block ~ ~ ~ minecraft:glass run function s3:block_store/write/single/blocks/glass
+execute if block ~ ~ ~ minecraft:grass run function s3:block_store/write/single/blocks/grass
+execute if block ~ ~ ~ minecraft:poppy run function s3:block_store/write/single/blocks/poppy
+execute if block ~ ~ ~ minecraft:torch run function s3:block_store/write/single/blocks/torch
+execute if block ~ ~ ~ minecraft:chest run function s3:block_store/write/single/blocks/chest
+execute if block ~ ~ ~ minecraft:wheat run function s3:block_store/write/single/blocks/wheat
+execute if block ~ ~ ~ minecraft:lever run function s3:block_store/write/single/blocks/lever
+execute if block ~ ~ ~ minecraft:chain run function s3:block_store/write/single/blocks/chain
+execute if block ~ ~ ~ minecraft:melon run function s3:block_store/write/single/blocks/melon
+execute if block ~ ~ ~ minecraft:cocoa run function s3:block_store/write/single/blocks/cocoa
+execute if block ~ ~ ~ minecraft:anvil run function s3:block_store/write/single/blocks/anvil
+execute if block ~ ~ ~ minecraft:lilac run function s3:block_store/write/single/blocks/lilac
+execute if block ~ ~ ~ minecraft:peony run function s3:block_store/write/single/blocks/peony

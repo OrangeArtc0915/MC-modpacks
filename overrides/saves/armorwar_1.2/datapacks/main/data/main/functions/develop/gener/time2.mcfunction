@@ -1,0 +1,1 @@
+execute as @a[tag=map_time_upd,limit=1] run function main:develop/gener/time3

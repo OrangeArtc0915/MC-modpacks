@@ -1,0 +1,8 @@
+data modify storage temp block_store.id set value "minecraft:turtle_egg"
+execute if block ~ ~ ~ minecraft:turtle_egg[eggs=1] run data modify storage temp block_store.state.eggs set value "1"
+execute if block ~ ~ ~ minecraft:turtle_egg[eggs=2] run data modify storage temp block_store.state.eggs set value "2"
+execute if block ~ ~ ~ minecraft:turtle_egg[eggs=3] run data modify storage temp block_store.state.eggs set value "3"
+execute if block ~ ~ ~ minecraft:turtle_egg[eggs=4] run data modify storage temp block_store.state.eggs set value "4"
+execute if block ~ ~ ~ minecraft:turtle_egg[hatch=0] run data modify storage temp block_store.state.hatch set value "0"
+execute if block ~ ~ ~ minecraft:turtle_egg[hatch=1] run data modify storage temp block_store.state.hatch set value "1"
+execute if block ~ ~ ~ minecraft:turtle_egg[hatch=2] run data modify storage temp block_store.state.hatch set value "2"

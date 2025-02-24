@@ -1,0 +1,1 @@
+replaceitem entity @s hotbar.4 carrot_on_a_stick{CustomModelData:8597012,ui:1b,skill_2:1b,skill:"soldiers_summon3",display:{Name:'{"text":"§b技能2"}',Lore:['{"text":"三名援军","color":"gray","italic":"false"}']}}

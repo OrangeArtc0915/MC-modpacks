@@ -1,0 +1,4 @@
+execute if data block 0 0 0 Items[0].tag.ctmp{type:"blaze"} run summon blaze 0 11 0 {NoAI:true,Tags:["blaze","stmp","monster","result"],ArmorItems:[{},{},{},{id:"minecraft:leather_helmet",Count:1b,tag:{Unbreakable:1b}}]}
+execute if data block 0 0 0 Items[0].tag.ctmp{type:"witch"} run summon witch 0 11 0 {NoAI:true,Tags:["stmp","monster","result"],ArmorItems:[{},{},{},{id:"minecraft:leather_helmet",Count:1b,tag:{Unbreakable:1b}}]}
+execute if data block 0 0 0 Items[0].tag.ctmp{type:"stray"} run summon stray 0 11 0 {NoAI:true,Tags:["wither_skeleton","stmp","monster","result"],ArmorItems:[{},{},{},{id:"minecraft:leather_helmet",Count:1b,tag:{Unbreakable:1b}}]}
+execute if data block 0 0 0 Items[0].tag.ctmp{type:"giant"} run summon giant 0 11 0 {NoAI:true,Tags:["giant","stmp","monster","result"],ArmorItems:[{},{},{},{id:"minecraft:leather_helmet",Count:1b,tag:{Unbreakable:1b}}]}

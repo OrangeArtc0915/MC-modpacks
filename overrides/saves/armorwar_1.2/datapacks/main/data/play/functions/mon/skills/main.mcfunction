@@ -1,0 +1,1 @@
+execute if entity @s[tag=sm_heal] run function play:mon/skills/sm_heal/test

@@ -1,0 +1,20 @@
+{
+  "parent": "notices:tower_16",
+  "display": {
+    "icon": {
+      "item": "minecraft:carrot_on_a_stick",
+      "nbt": "{CustomModelData:8598031}"
+    },
+    "title": {
+      "text": "神圣之盾"
+    },
+    "description": {
+      "text": "§7抵御攻击\n给予反伤\n§7金币:§6220"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {"notices:notice": {"trigger": "minecraft:impossible"}}
+}

@@ -1,0 +1,1 @@
+tellraw @a[tag=waiting] {"text":"§c有游戏正在进行！"}

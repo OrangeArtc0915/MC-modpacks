@@ -1,0 +1,8 @@
+
+
+execute at @s positioned ~ ~1.62 ~ run summon item ^2.5 ^1.0 ^3.0 {Tags:["mpar_facing","mpar_custom","menu","tmp"],NoGravity:1b,Item:{id:"minecraft:barrier",Count:1b,tag:{owner:0,buttons:[{cd:10,id:"minecraft:end_stone_brick_wall",title:'{"text":"§f←10MP"}',run_command:"function main:develop/mobs/mp/m10",pos:[1.0,-0.5,0.0]},{cd:5,id:"minecraft:sandstone_wall",title:'{"text":"§f←1MP"}',run_command:"function main:develop/mobs/mp/m1",pos:[2.0,-0.5,0.0]},{id:"minecraft:end_crystal",title:'{"text":""}',run_command:"function main:develop/mobs/mp/tellraw",pos:[3.0,-0.5,0.0],spec:"mp_show"},{cd:5,id:"minecraft:sandstone_wall",title:'{"text":"§f1MP→"}',run_command:"function main:develop/mobs/mp/p1",pos:[4.0,-0.5,0.0]},{cd:10,id:"minecraft:end_stone_brick_wall",title:'{"text":"§f10MP→"}',run_command:"function main:develop/mobs/mp/p10",pos:[5.0,-0.5,0.0]},{cd:10,id:"minecraft:end_stone_brick_wall",title:'{"text":"§f←10DP"}',run_command:"function main:develop/mobs/pp/m10",pos:[1.0,-1.5,0.0]},{cd:5,id:"minecraft:sandstone_wall",title:'{"text":"§f←1DP"}',run_command:"function main:develop/mobs/pp/m1",pos:[2.0,-1.5,0.0]},{id:"minecraft:chainmail_chestplate",title:'{"text":""}',run_command:"function main:develop/mobs/pp/tellraw",pos:[3.0,-1.5,0.0],spec:"dp_show"},{cd:5,id:"minecraft:sandstone_wall",title:'{"text":"§f1DP→"}',run_command:"function main:develop/mobs/pp/p1",pos:[4.0,-1.5,0.0]},{cd:10,id:"minecraft:end_stone_brick_wall",title:'{"text":"§f10DP→"}',run_command:"function main:develop/mobs/pp/p10",pos:[5.0,-1.5,0.0]}]}}}
+
+execute store result entity @e[tag=tmp,limit=1] Item.tag.owner int 1 run scoreboard players get @s mpar_id
+tag @e remove tmp
+
+function main:develop/mobs/kits1

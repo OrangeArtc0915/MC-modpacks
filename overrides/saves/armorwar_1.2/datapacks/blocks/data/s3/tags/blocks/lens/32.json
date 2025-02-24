@@ -1,0 +1,31 @@
+{
+    "values": [
+        "minecraft:stripped_dark_oak_wood",
+        "minecraft:mossy_cobblestone_wall",
+        "minecraft:red_stained_glass_pane",
+        "minecraft:dark_prismarine_stairs",
+        "minecraft:light_blue_wall_banner",
+        "minecraft:light_gray_wall_banner",
+        "minecraft:chiseled_red_sandstone",
+        "minecraft:cut_red_sandstone_slab",
+        "minecraft:light_blue_shulker_box",
+        "minecraft:light_gray_shulker_box",
+        "minecraft:lime_glazed_terracotta",
+        "minecraft:pink_glazed_terracotta",
+        "minecraft:gray_glazed_terracotta",
+        "minecraft:cyan_glazed_terracotta",
+        "minecraft:blue_glazed_terracotta",
+        "minecraft:orange_concrete_powder",
+        "minecraft:yellow_concrete_powder",
+        "minecraft:purple_concrete_powder",
+        "minecraft:dead_brain_coral_block",
+        "minecraft:end_stone_brick_stairs",
+        "minecraft:mossy_stone_brick_slab",
+        "minecraft:mossy_cobblestone_slab",
+        "minecraft:polished_andesite_slab",
+        "minecraft:mossy_stone_brick_wall",
+        "minecraft:stripped_warped_hyphae",
+        "minecraft:crimson_pressure_plate",
+        "minecraft:chiseled_nether_bricks"
+    ]
+}

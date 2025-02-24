@@ -1,0 +1,1 @@
+execute as @e[tag=marrow0] run function play:mob_skills/marrow0

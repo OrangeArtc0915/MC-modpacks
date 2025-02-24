@@ -1,0 +1,1 @@
+replaceitem entity @s hotbar.3 carrot_on_a_stick{CustomModelData:8597011,ui:1b,skill_1:1b,skill:"attack_times",display:{Name:'{"text":"§b技能1"}',Lore:['{"text":"发射你的剑","color":"gray","italic":"false"}']}}

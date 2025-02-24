@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:light_blue_dye",
+    "minecraft:cyan_dye",
+    "minecraft:lapis_lazuli",
+    "minecraft:light_gray_dye",
+    "minecraft:feather",
+    "minecraft:bone_meal"
+  ]
+}

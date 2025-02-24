@@ -1,0 +1,20 @@
+{
+  "parent": "notices:tower_3",
+  "display": {
+    "icon": {
+      "item": "minecraft:carrot_on_a_stick",
+      "nbt": "{CustomModelData:8592003}"
+    },
+    "title": {
+      "text": "2级魔法塔"
+    },
+    "description": {
+      "text": "§7攻速:§b快\n§7魔法攻击:§e中\n§7金币:§6144"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {"notices:notice": {"trigger": "minecraft:impossible"}}
+}

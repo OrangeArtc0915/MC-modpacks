@@ -1,0 +1,5 @@
+data modify storage temp block_store.id set value "minecraft:lantern"
+execute if block ~ ~ ~ minecraft:lantern[hanging=true] run data modify storage temp block_store.state.hanging set value "true"
+execute if block ~ ~ ~ minecraft:lantern[hanging=false] run data modify storage temp block_store.state.hanging set value "false"
+execute if block ~ ~ ~ minecraft:lantern[waterlogged=true] run data modify storage temp block_store.state.waterlogged set value "true"
+execute if block ~ ~ ~ minecraft:lantern[waterlogged=false] run data modify storage temp block_store.state.waterlogged set value "false"

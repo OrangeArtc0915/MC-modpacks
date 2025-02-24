@@ -1,0 +1,20 @@
+{
+  "parent": "notices:tower_13",
+  "display": {
+    "icon": {
+      "item": "minecraft:carrot_on_a_stick",
+      "nbt": "{CustomModelData:8598002}"
+    },
+    "title": {
+      "text": "森林之怒"
+    },
+    "description": {
+      "text": "§7困住敌人\n§7点即触发1次\n金币:§6300"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {"notices:notice": {"trigger": "minecraft:impossible"}}
+}

@@ -1,0 +1,3 @@
+execute if data block 0 0 0 Items[0].tag.ctmp{type:"enderman"} run summon enderman 0 11 0 {NoAI:true,Tags:["enderman","stmp","monster","result"],ArmorItems:[{},{},{},{id:"minecraft:leather_helmet",Count:1b,tag:{Unbreakable:1b}}]}
+execute if data block 0 0 0 Items[0].tag.ctmp{type:"pillager"} run summon pillager 0 11 0 {NoAI:true,Tags:["pillager","stmp","monster","result"],ArmorItems:[{},{},{},{id:"minecraft:leather_helmet",Count:1b,tag:{Unbreakable:1b}}]}
+execute if data block 0 0 0 Items[0].tag.ctmp{type:"skeleton"} run summon skeleton 0 11 0 {NoAI:true,Tags:["skeleton","stmp","monster","result"],ArmorItems:[{},{},{},{id:"minecraft:leather_helmet",Count:1b,tag:{Unbreakable:1b}}]}

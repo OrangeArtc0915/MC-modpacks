@@ -1,0 +1,1 @@
+replaceitem entity @s weapon.offhand spectral_arrow{hr2_arrow:1b,ui:1b,display:{Name:'{"text":"§6光灵的箭"}',Lore:['{"text":"825点伤害,发光印记，降低护甲","bold":"true","italic":"false","color":"gray"}']}}

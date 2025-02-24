@@ -1,0 +1,2 @@
+replaceitem entity @s container.0 glass{display:{Name:"\"按Q开始游戏！\""},CustomModelData:1,item:"startgame"}
+replaceitem entity @s container.1 glass{display:{Name:"\"制作自定义地图！\"",Lore:["\"按Q\""]},CustomModelData:2,item:"develop"}

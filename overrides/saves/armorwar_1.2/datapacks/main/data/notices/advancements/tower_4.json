@@ -1,0 +1,20 @@
+{
+  "parent": "notices:tower_a",
+  "display": {
+    "icon": {
+      "item": "minecraft:carrot_on_a_stick",
+      "nbt": "{CustomModelData:8592004}"
+    },
+    "title": {
+      "text": "1级兵营"
+    },
+    "description": {
+      "text": "§71级士兵\n§7金币:§670"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {"notices:notice": {"trigger": "minecraft:impossible"}}
+}

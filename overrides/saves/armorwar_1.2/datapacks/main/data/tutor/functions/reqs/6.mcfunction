@@ -1,0 +1,1 @@
+execute if entity @e[tag=tower_editing,scores={build=4}] run data remove storage psp:result self.tutor[0].req[0]

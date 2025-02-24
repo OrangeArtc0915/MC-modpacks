@@ -1,0 +1,9 @@
+execute if score r int matches 5 run summon minecraft:armor_stand ~ ~ ~ {Fire:500s,Tags:["killed"],HandItems:[{id:"minecraft:carrot_on_a_stick",Count:1b,Damage:0s,tag:{CustomModelData:1}},{}]}
+execute if score r int matches 10 run summon minecraft:armor_stand ~ ~ ~ {Fire:500s,Tags:["killed"],HandItems:[{id:"minecraft:carrot_on_a_stick",Count:1b,Damage:0s,tag:{CustomModelData:2}},{}]}
+execute if score r int matches 15 run summon minecraft:armor_stand ~ ~ ~ {Fire:500s,Tags:["killed"],HandItems:[{id:"minecraft:carrot_on_a_stick",Count:1b,Damage:0s,tag:{CustomModelData:3}},{}]}
+execute if score r int matches 20 run summon minecraft:armor_stand ~ ~ ~ {Fire:500s,Tags:["killed"],HandItems:[{id:"minecraft:carrot_on_a_stick",Count:1b,Damage:0s,tag:{CustomModelData:4}},{}]}
+execute if score r int matches 25 run summon minecraft:armor_stand ~ ~ ~ {Fire:500s,Tags:["killed"],HandItems:[{id:"minecraft:carrot_on_a_stick",Count:1b,Damage:0s,tag:{CustomModelData:5}},{}]}
+execute if score r int matches 30 run summon minecraft:armor_stand ~ ~ ~ {Fire:500s,Tags:["killed"],HandItems:[{id:"minecraft:carrot_on_a_stick",Count:1b,Damage:0s,tag:{CustomModelData:6}},{}]}
+execute if score r int matches 35 run summon minecraft:armor_stand ~ ~ ~ {Fire:500s,Tags:["killed"],HandItems:[{id:"minecraft:carrot_on_a_stick",Count:1b,Damage:0s,tag:{CustomModelData:7}},{}]}
+execute if score r int matches 40 run summon minecraft:armor_stand ~ ~ ~ {Fire:500s,Tags:["killed"],HandItems:[{id:"minecraft:carrot_on_a_stick",Count:1b,Damage:0s,tag:{CustomModelData:8}},{}]}
+execute if score r int matches 45 run summon minecraft:armor_stand ~ ~ ~ {Fire:500s,Tags:["killed"],HandItems:[{id:"minecraft:carrot_on_a_stick",Count:1b,Damage:0s,tag:{CustomModelData:9}},{}]}

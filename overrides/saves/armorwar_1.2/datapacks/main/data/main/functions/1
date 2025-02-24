@@ -1,0 +1,1 @@
+setblock -36 53 78 minecraft:structure_block[mode=load]{metadata:"",mirror:"NONE",ignoreEntities:1b,powered:1b,seed:0L,author:"?",rotation:"NONE",posX:0,mode:"LOAD",posY:2,sizeX:19,posZ:0,integrity:1.0f,showair:0b,name:"minecraft:chapter0",sizeY:5,sizeZ:19,showboundingbox:1b}

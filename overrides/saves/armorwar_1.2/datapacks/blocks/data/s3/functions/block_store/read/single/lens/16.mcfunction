@@ -1,0 +1,17 @@
+execute if data storage temp block_store{id:"minecraft:podzol"} run function s3:block_store/read/single/blocks/podzol
+execute if data storage temp block_store{id:"minecraft:gravel"} run function s3:block_store/read/single/blocks/gravel
+execute if data storage temp block_store{id:"minecraft:sponge"} run function s3:block_store/read/single/blocks/sponge
+execute if data storage temp block_store{id:"minecraft:cobweb"} run function s3:block_store/read/single/blocks/cobweb
+execute if data storage temp block_store{id:"minecraft:piston"} run function s3:block_store/read/single/blocks/piston
+execute if data storage temp block_store{id:"minecraft:allium"} run function s3:block_store/read/single/blocks/allium
+execute if data storage temp block_store{id:"minecraft:bricks"} run function s3:block_store/read/single/blocks/bricks
+execute if data storage temp block_store{id:"minecraft:ladder"} run function s3:block_store/read/single/blocks/ladder
+execute if data storage temp block_store{id:"minecraft:cactus"} run function s3:block_store/read/single/blocks/cactus
+execute if data storage temp block_store{id:"minecraft:basalt"} run function s3:block_store/read/single/blocks/basalt
+execute if data storage temp block_store{id:"minecraft:beacon"} run function s3:block_store/read/single/blocks/beacon
+execute if data storage temp block_store{id:"minecraft:hopper"} run function s3:block_store/read/single/blocks/hopper
+execute if data storage temp block_store{id:"minecraft:bamboo"} run function s3:block_store/read/single/blocks/bamboo
+execute if data storage temp block_store{id:"minecraft:barrel"} run function s3:block_store/read/single/blocks/barrel
+execute if data storage temp block_store{id:"minecraft:smoker"} run function s3:block_store/read/single/blocks/smoker
+execute if data storage temp block_store{id:"minecraft:jigsaw"} run function s3:block_store/read/single/blocks/jigsaw
+execute if data storage temp block_store{id:"minecraft:target"} run function s3:block_store/read/single/blocks/target

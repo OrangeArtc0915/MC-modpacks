@@ -1,0 +1,1 @@
+replaceitem entity @s hotbar.2 carrot_on_a_stick{CustomModelData:8598002,ui:1b,skill_0:1b,skill:"small_vein",display:{Name:'{"text":"§b技能0"}',Lore:['{"text":"困住敌人","color":"gray","italic":"false"}','{"text":"生命恢复","color":"gray","italic":"false"}']}}

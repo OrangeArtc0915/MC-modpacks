@@ -1,0 +1,5 @@
+data modify storage temp block_store.id set value "minecraft:chipped_anvil"
+execute if block ~ ~ ~ minecraft:chipped_anvil[facing=north] run data modify storage temp block_store.state.facing set value "north"
+execute if block ~ ~ ~ minecraft:chipped_anvil[facing=south] run data modify storage temp block_store.state.facing set value "south"
+execute if block ~ ~ ~ minecraft:chipped_anvil[facing=west] run data modify storage temp block_store.state.facing set value "west"
+execute if block ~ ~ ~ minecraft:chipped_anvil[facing=east] run data modify storage temp block_store.state.facing set value "east"

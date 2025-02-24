@@ -1,0 +1,17 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_sword",
+      "nbt":"{Enchantments:[{id:\"minecraft:sharpness\",lvl:1s}]}"
+    },
+    "hidden":true,
+    "title": {"text":"新英雄解锁！","color":"gold"},
+    "description":{"text":" "},
+    "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true,
+    "criteria": {"notices:notice": {"trigger": "minecraft:impossible"}}
+  }

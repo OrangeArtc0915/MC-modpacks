@@ -1,0 +1,1 @@
+scoreboard objectives add list_input dummy

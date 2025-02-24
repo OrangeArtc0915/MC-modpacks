@@ -1,0 +1,15 @@
+{
+  "notices:hero": {
+    "criteria": {
+      "notices:notice": "2021-07-27 17:46:35 +0800"
+    },
+    "done": true
+  },
+  "notices:monster": {
+    "criteria": {
+      "notices:notice": "2021-07-28 01:11:57 +0800"
+    },
+    "done": true
+  },
+  "DataVersion": 2586
+}

@@ -1,0 +1,1 @@
+replaceitem entity @s hotbar.2 carrot_on_a_stick{CustomModelData:8597010,ui:1b,skill_0:1b,skill:"damage_return",display:{Name:'{"text":"§b技能0"}',Lore:['{"text":"增加反伤效果","color":"gray","italic":"false"}']}}

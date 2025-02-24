@@ -1,0 +1,1 @@
+execute as @a[tag=map_mobs_upd] at @s run function main:develop/gener/waves/mobs/upd3

@@ -1,0 +1,312 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = assets/ing/1.jpeg
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 106
+  width = 268
+  action = deep_customization_element:title_screen_forge_top
+  actionid = a45c2daf-afa1-4b78-ba75-9714ed11440d1738641205385
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 2
+  width = 108
+  action = deep_customization_element:title_screen_branding
+  actionid = da2ffb27-31c1-425b-905e-94caea86113e1738641205392
+  y = 223
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 251
+  width = 228
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = 0e8112a9-29c5-4a08-be71-0edf10f7d85d1738641205393
+  y = 245
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 343
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = c9a36184-13b5-4ea5-9be5-a8ccf99a73ef1738641205393
+  y = 166
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 103
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 3aa1c888-de01-4b1f-a875-05d5b07f08f41738641205393
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = true
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = 0923d6c9-e804-4713-918a-1952469b7e021738641205393
+  y = 0
+  height = 30
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = top-left
+  x = -1
+  action = movebutton
+  y = 120
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  width = 45
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  orientation = top-left
+  x = 44
+  action = movebutton
+  y = 120
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  width = 21
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = top-left
+  x = 0
+  action = movebutton
+  y = 140
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  width = 44
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  orientation = top-left
+  x = 0
+  action = movebutton
+  y = 0
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  width = 98
+  action = resizebutton
+  height = 74
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  orientation = top-left
+  x = 44
+  action = movebutton
+  y = 140
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = top-left
+  x = -1
+  action = movebutton
+  y = 160
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  width = 66
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = top-left
+  x = 0
+  action = movebutton
+  y = 180
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  width = 65
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  copy_client_player = false
+  slim = true
+  auto_skin = false
+  scale = 30
+  headrotationy = 0.0
+  headrotationx = 0.0
+  showname = true
+  skinpath = assets/ing/mmm.png
+  crouching = false
+  follow_mouse = true
+  x = 425
+  width = 18
+  parrot_left_shoulder = false
+  action = custom_layout_element:fancymenu_customization_player_entity
+  actionid = bef11062-066d-41a3-a372-9545847046a11738641411393
+  y = 209
+  playername = mmm
+  bodyrotationx = 0.0
+  parrot = false
+  bodyrotationy = 0.0
+  auto_cape = false
+  is_baby = false
+  height = 54
+}
+
+customization {
+  orientation = top-left
+  copy_client_player = false
+  slim = true
+  auto_skin = false
+  scale = 30
+  headrotationy = 0.0
+  headrotationx = 0.0
+  showname = true
+  skinpath = assets/ing/orangearc655743.png
+  crouching = false
+  follow_mouse = true
+  x = 384
+  width = 18
+  parrot_left_shoulder = false
+  action = custom_layout_element:fancymenu_customization_player_entity
+  actionid = 8546d481-42a1-4aba-a9b7-08dac813db311738641489584
+  y = 211
+  playername = OrangeArc655743
+  bodyrotationx = 0.0
+  parrot = false
+  bodyrotationy = 0.0
+  auto_cape = false
+  is_baby = false
+  height = 54
+}
+
+customization {
+  orientation = top-left
+  copy_client_player = false
+  slim = true
+  auto_skin = false
+  scale = 30
+  headrotationy = 0.0
+  headrotationx = 0.0
+  showname = true
+  skinpath = assets/ing/huangmengjing.png
+  crouching = false
+  follow_mouse = true
+  x = 454
+  width = 18
+  parrot_left_shoulder = false
+  action = custom_layout_element:fancymenu_customization_player_entity
+  actionid = f9f8b75e-60b2-4268-aca2-d6fd0b9734891738641641136
+  y = 209
+  playername = 恍梦境
+  bodyrotationx = 0.0
+  parrot = false
+  bodyrotationy = 0.0
+  auto_cape = false
+  is_baby = false
+  height = 54
+}
+
+customization {
+  orientation = top-left
+  basecolor = #ffff00
+  shadow = true
+  rotation = 20.0
+  scale = 1.0
+  refresh = false
+  bouncing = true
+  vanilla-like = false
+  x = 315
+  actionid = c5faea5d-524d-4ae5-aa10-ee89aaf8b6c51738641841357
+  action = addsplash
+  y = 157
+  text = 整合包作者：
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = 怪物塔防
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 11
+  width = 47
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 0dbe44ad-e572-4e42-b7cb-888af90e43071738641859384
+  y = 100
+  alignment = left
+  height = 15
+}
+

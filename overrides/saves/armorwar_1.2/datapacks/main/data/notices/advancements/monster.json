@@ -1,0 +1,16 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:skeleton_skull"
+    },
+    "hidden":true,
+    "title": [{"text":""},{"text":"发现新怪物！","color":"red"},{"text":"\n决策者请打开书以查看详情"}],
+    "description":{"text":" "},
+    "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true,
+    "criteria": {"notices:notice": {"trigger": "minecraft:impossible"}}
+  }

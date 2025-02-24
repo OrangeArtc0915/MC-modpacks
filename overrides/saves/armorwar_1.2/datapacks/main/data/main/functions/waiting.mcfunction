@@ -1,0 +1,1 @@
+execute at @e[type=item,nbt={Item:{tag:{item:"develop"}}}] as @p run function main:developer

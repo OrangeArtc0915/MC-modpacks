@@ -1,0 +1,6 @@
+execute if data storage temp block_store{state: {"axis": "x", "waterlogged": "true"}} run setblock ~ ~ ~ minecraft:chain[axis=x,waterlogged=true]
+execute if data storage temp block_store{state: {"axis": "x", "waterlogged": "false"}} run setblock ~ ~ ~ minecraft:chain[axis=x,waterlogged=false]
+execute if data storage temp block_store{state: {"axis": "y", "waterlogged": "true"}} run setblock ~ ~ ~ minecraft:chain[axis=y,waterlogged=true]
+execute if data storage temp block_store{state: {"axis": "y", "waterlogged": "false"}} run setblock ~ ~ ~ minecraft:chain[axis=y,waterlogged=false]
+execute if data storage temp block_store{state: {"axis": "z", "waterlogged": "true"}} run setblock ~ ~ ~ minecraft:chain[axis=z,waterlogged=true]
+execute if data storage temp block_store{state: {"axis": "z", "waterlogged": "false"}} run setblock ~ ~ ~ minecraft:chain[axis=z,waterlogged=false]

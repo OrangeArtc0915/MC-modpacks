@@ -1,0 +1,6 @@
+{
+	"pack": {
+		"pack_format": 4,
+		"description": "百分比血量条\n执行phb:refresh来刷新执行者的血条"
+	}
+}

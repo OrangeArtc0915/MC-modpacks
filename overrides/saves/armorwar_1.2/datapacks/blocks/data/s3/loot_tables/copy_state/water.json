@@ -1,0 +1,23 @@
+{
+    "type": "block",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "water_bucket",
+                    "functions": [
+                        {
+                            "function": "copy_state",
+                            "block": "water",
+                            "properties": [
+                                "level"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

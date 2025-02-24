@@ -1,0 +1,2 @@
+execute unless entity @a[tag=waiting,scores={select=1}] run function maps:upd_skull1
+execute if entity @a[tag=waiting,scores={select=1}] as @a[tag=waiting,scores={select=1},limit=1] run function maps:upd_skull2

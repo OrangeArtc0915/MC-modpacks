@@ -1,0 +1,2 @@
+execute positioned ~ ~1 ~ unless block ~ ~ ~ #main:tree run summon area_effect_cloud ~ ~ ~ {Tags:["tree_crown","tree_crowned","tree_grow","tree_aec","tree_leave","tree_block"],Duration:2147483647}
+execute positioned ^ ^ ^1.5 unless block ~ ~ ~ #main:tree run summon area_effect_cloud ~ ~ ~ {Tags:["tree_crown","tree_crowned","tree_grow","tree_aec","tree_leave","tree_block"],Duration:2147483647}

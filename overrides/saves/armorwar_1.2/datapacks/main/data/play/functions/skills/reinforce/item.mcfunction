@@ -1,0 +1,2 @@
+scoreboard players set reinforce int -1
+replaceitem entity @s hotbar.0 minecraft:carrot_on_a_stick{display:{Lore:['{"text":"§f按Q释放"}','{"text":"§7两名增援士兵"}'],Name:'{"text":"§b援军","bold":"true"}'},ui:1b,item:reinforce,skill:reinforce,HideFlags:63,CustomModelData:8597001}

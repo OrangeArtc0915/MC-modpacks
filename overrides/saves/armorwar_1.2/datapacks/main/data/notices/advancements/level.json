@@ -1,0 +1,16 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:sandstone"
+    },
+    "hidden":true,
+    "title": {"text":"新关卡解锁！","color":"green"},
+    "description":{"text":" "},
+    "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true,
+    "criteria": {"notices:notice": {"trigger": "minecraft:impossible"}}
+  }

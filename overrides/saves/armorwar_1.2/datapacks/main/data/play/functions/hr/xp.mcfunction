@@ -1,0 +1,9 @@
+execute if score xp int matches 1 if score @s xp matches ..9 run xp add @s 1 points
+execute if score xp int matches 2 if score @s xp matches ..9 run xp add @s 2 points
+execute if score xp int matches 3 if score @s xp matches ..9 run xp add @s 3 points
+execute if score xp int matches 4 if score @s xp matches ..9 run xp add @s 4 points
+execute if score xp int matches 5 if score @s xp matches ..9 run xp add @s 5 points
+execute if score xp int matches 6 if score @s xp matches ..9 run xp add @s 6 points
+execute if score xp int matches 7 if score @s xp matches ..9 run xp add @s 7 points
+execute if score xp int matches 8 if score @s xp matches ..9 run xp add @s 8 points
+execute if score xp int matches 9.. if score @s xp matches ..9 run xp add @s 9 points

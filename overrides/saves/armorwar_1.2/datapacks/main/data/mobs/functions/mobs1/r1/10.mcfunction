@@ -1,0 +1,3 @@
+execute if data block 0 0 0 Items[0].tag.ctmp{type:"illusioner"} run summon illusioner ~ ~ ~ {Rotation:[150.0f,0.0f],NoAI:true,Tags:["illusioner","stmp","monster","result"],ArmorItems:[{},{},{},{id:"minecraft:leather_helmet",Count:1b,tag:{Unbreakable:1b}}]}
+execute if data block 0 0 0 Items[0].tag.ctmp{type:"vindicator"} run summon vindicator ~ ~ ~ {Rotation:[150.0f,0.0f],NoAI:true,Tags:["stmp","monster","result"],ArmorItems:[{},{},{},{id:"minecraft:leather_helmet",Count:1b,tag:{Unbreakable:1b}}]}
+execute if data block 0 0 0 Items[0].tag.ctmp{type:"silverfish"} run summon silverfish ~ ~ ~ {Rotation:[150.0f,0.0f],NoAI:true,Tags:["silverfish","stmp","monster","result"],ArmorItems:[{},{},{},{id:"minecraft:leather_helmet",Count:1b,tag:{Unbreakable:1b}}]}

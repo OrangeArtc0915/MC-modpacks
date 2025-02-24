@@ -1,0 +1,2 @@
+replaceitem entity @s hotbar.8 barrier{display:{Name:'{"text":"返回大厅","color":"red","italic":"false"}',Lore:['{"text":"§f按F"}']},ui:1b,back:true,waiting:bk}
+execute at @s run playsound minecraft:block.lever.click player @s ~ ~ ~ 1 2

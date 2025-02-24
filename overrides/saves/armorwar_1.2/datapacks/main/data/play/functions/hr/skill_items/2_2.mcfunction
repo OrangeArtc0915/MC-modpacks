@@ -1,0 +1,1 @@
+replaceitem entity @s hotbar.4 carrot_on_a_stick{CustomModelData:8597022,ui:1b,skill_2:1b,skill:"golem_summon",display:{Name:'{"text":"§b技能2"}',Lore:['{"text":"召唤傀儡","color":"gray","italic":"false"}']}}

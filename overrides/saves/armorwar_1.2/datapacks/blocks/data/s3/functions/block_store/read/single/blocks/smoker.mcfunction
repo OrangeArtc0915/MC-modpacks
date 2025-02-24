@@ -1,0 +1,8 @@
+execute if data storage temp block_store{state: {"facing": "north", "lit": "true"}} run setblock ~ ~ ~ minecraft:smoker[facing=north,lit=true]
+execute if data storage temp block_store{state: {"facing": "north", "lit": "false"}} run setblock ~ ~ ~ minecraft:smoker[facing=north,lit=false]
+execute if data storage temp block_store{state: {"facing": "south", "lit": "true"}} run setblock ~ ~ ~ minecraft:smoker[facing=south,lit=true]
+execute if data storage temp block_store{state: {"facing": "south", "lit": "false"}} run setblock ~ ~ ~ minecraft:smoker[facing=south,lit=false]
+execute if data storage temp block_store{state: {"facing": "west", "lit": "true"}} run setblock ~ ~ ~ minecraft:smoker[facing=west,lit=true]
+execute if data storage temp block_store{state: {"facing": "west", "lit": "false"}} run setblock ~ ~ ~ minecraft:smoker[facing=west,lit=false]
+execute if data storage temp block_store{state: {"facing": "east", "lit": "true"}} run setblock ~ ~ ~ minecraft:smoker[facing=east,lit=true]
+execute if data storage temp block_store{state: {"facing": "east", "lit": "false"}} run setblock ~ ~ ~ minecraft:smoker[facing=east,lit=false]

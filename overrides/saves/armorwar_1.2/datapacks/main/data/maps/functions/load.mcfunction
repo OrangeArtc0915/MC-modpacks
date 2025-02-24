@@ -1,0 +1,1 @@
+data modify block 0 0 0 Items[0].tag.map_levels set from block 0 0 0 Items[0].tag.ctmp.maps

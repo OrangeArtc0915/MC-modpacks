@@ -1,0 +1,2 @@
+execute align xyz if entity @e[type=area_effect_cloud,tag=block_reserve,distance=..0.1] run scoreboard players operation @e[type=area_effect_cloud,tag=block_reserve,distance=..0.1] int += duration int
+execute align xyz unless entity @e[type=area_effect_cloud,tag=block_reserve,distance=..0.1] run function block_reserve:summon

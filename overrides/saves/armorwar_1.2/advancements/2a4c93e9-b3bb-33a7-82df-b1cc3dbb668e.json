@@ -1,0 +1,33 @@
+{
+  "notices:tower_12": {
+    "criteria": {
+      "notices:notice": "2021-10-08 12:18:19 +0800"
+    },
+    "done": true
+  },
+  "notices:tower_10": {
+    "criteria": {
+      "notices:notice": "2021-10-08 12:18:19 +0800"
+    },
+    "done": true
+  },
+  "notices:tower_11": {
+    "criteria": {
+      "notices:notice": "2021-10-08 12:18:19 +0800"
+    },
+    "done": true
+  },
+  "notices:tower_a": {
+    "criteria": {
+      "notices:notice": "2021-10-08 12:18:19 +0800"
+    },
+    "done": true
+  },
+  "notices:tower_9": {
+    "criteria": {
+      "notices:notice": "2021-10-08 12:18:19 +0800"
+    },
+    "done": true
+  },
+  "DataVersion": 2586
+}

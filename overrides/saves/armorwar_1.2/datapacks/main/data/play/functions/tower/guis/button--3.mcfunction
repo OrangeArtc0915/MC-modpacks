@@ -1,0 +1,1 @@
+scoreboard players set button_temp int 1

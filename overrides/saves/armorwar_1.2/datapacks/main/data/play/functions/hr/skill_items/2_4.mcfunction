@@ -1,0 +1,1 @@
+replaceitem entity @s weapon.offhand tipped_arrow{hr2_arrow:1b,Potion:"minecraft:strong_poison",ui:1b,display:{Name:'{"text":"§2剧毒的箭"}',Lore:['{"text":"405点伤害,短暂中毒","bold":"true","italic":"false","color":"gray"}']}}
