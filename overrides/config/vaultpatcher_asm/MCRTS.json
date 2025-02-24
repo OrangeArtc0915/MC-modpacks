@@ -1,0 +1,2259 @@
+[
+    {
+        "authors": "Small_Miao",
+        "name": "MCRTS",
+        "desc": "MCRTS汉化",
+        "mods": "reignofnether",
+        "dynamic": false
+    },
+    {
+        "target_class": {
+            "name": "com/solegendary/reignofnether/player/PlayerServerEvents"
+        },
+        "pairs": [
+            {
+                "key": "Welcome to Reign of Nether",
+                "value": "欢迎来到 Reign of Nether"
+            },
+            {
+                "key": "Press F12 to toggle RTS camera and join the game",
+                "value": "按下 F12 进入RTS游戏视角并加入游戏"
+            },
+            {
+                "key": "Use '/rts-help' to see the list of all commands",
+                "value": "使用 '/rts-help' 来查看所有指令"
+            },
+            {
+                "key": "As a server op you may use:",
+                "value": "如果你是游戏管理员,你可能用的到以下指令:"
+            },
+            {
+                "key": "/rts-fog enable | disable",
+                "value": "/rts-fog enable | disable (启用战争迷雾)"
+            },
+            {
+                "key": "/rts-reset",
+                "value": "/rts-reset (重置游戏)"
+            },
+            {
+                "key": "Cannot start outside map border",
+                "value": "无法在游戏边界外开始"
+            },
+            {
+                "key": "You already started your RTS match!",
+                "value": "你已经开始了一把RTS游戏"
+            },
+            {
+                "key": " has started their game!",
+                "value": "开始了一把游戏!"
+            },
+            {
+                "key": "There are now ",
+                "value": "现在有 "
+            },
+            {
+                "key": " total RTS player(s)",
+                "value": " 个玩家在RTS游戏中"
+            },
+            {
+                "key": "used cheat:",
+                "value": "使用了作弊:"
+            },
+            {
+                "key": " enabled all cheats",
+                "value": " 启用了所有作弊"
+            },
+            {
+                "key": "disabled cheat: ",
+                "value": "关闭了作弊:"
+            },
+            {
+                "key": "enabled cheat:",
+                "value": "启用了作弊:"
+            },
+            {
+                "key": " has ",
+                "value": "因为"
+            },
+            {
+                "key": " and is defeated!",
+                "value": "输掉了比赛!"
+            },
+            {
+                "key": "There are ",
+                "value": "还有 "
+            },
+            {
+                "key": " RTS player(s) remaining",
+                "value": " 名玩家存活"
+            },
+            {
+                "key": " is victorious!",
+                "value": " 获得了胜利!"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "com/solegendary/reignofnether/hud/buttons/StartButtons"
+        },
+        "pairs": [
+            {
+                "key": "Join the game as the Villager Faction.",
+                "value": "使用<村民>阵营加入游戏"
+            },
+            {
+                "key": "Spawns 3 villagers to the target location.",
+                "value": "生成3个村民在指定位置."
+            },
+            {
+                "key": "Join the game as the Monster Faction.",
+                "value": "使用<怪物>阵营加入游戏"
+            },
+            {
+                "key": "Spawns 3 zombie villagers at the target location.",
+                "value": "生成3个僵尸村民在指定位置."
+            },
+            {
+                "key": "Join the game as the Piglin Faction.",
+                "value": "使用<猪灵>阵营加入游戏"
+            },
+            {
+                "key": "Spawns in 3 piglin grunts to the target location.",
+                "value": "生成3个猪灵在指定位置."
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "com/solegendary/reignofnether/hud/buttons/HelperButtons"
+        },
+        "pairs": [
+            {
+                "key": "Chat (enter)",
+                "value": "聊天 (回车)"
+            },
+            {
+                "key": "Idle workers",
+                "value": "闲置工人"
+            },
+            {
+                "key": "Select all military units",
+                "value": "选择全部部队"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "com/solegendary/reignofnether/minimap/MinimapClientEvents"
+        },
+        "pairs": [
+            {
+                "key": "Open large map",
+                "value": "打开大地图"
+            },
+            {
+                "key": "Close",
+                "value": "关闭"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "com/solegendary/reignofnether/hud/HudClientEvents"
+        },
+        "pairs": [
+            {
+                "key": "Food",
+                "value": "食物"
+            },
+            {
+                "key": "Wood",
+                "value": "木材"
+            },
+            {
+                "key": "Ore",
+                "value": "矿物"
+            },
+            {
+                "key": "Population",
+                "value": "补给"
+            },
+            {
+                "key": "Workers on ",
+                "value": "工作在采集 "
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "com/solegendary/reignofnether/hud/buttons/ActionButtons"
+        },
+        "pairs": [
+            {
+                "key": "Build/Repair",
+                "value": "建造/修理"
+            },
+            {
+                "key": "Gather",
+                "value": "采集"
+            },
+            {
+                "key": "Attack",
+                "value": "攻击"
+            },
+            {
+                "key": "Stop",
+                "value": "停止"
+            },
+            {
+                "key": "Hold Position",
+                "value": "防御"
+            },
+            {
+                "key": "Move",
+                "value": "移动"
+            },
+            {
+                "key": "Garrison",
+                "value": "驻扎"
+            },
+            {
+                "key": "Ungarrison",
+                "value": "取消驻扎"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "com/solegendary/reignofnether/building/buildings/villagers/TownCentre"
+        },
+        "pairs": [
+            {
+                "key": "Town Centre (Capitol)",
+                "value": "城镇中心"
+            },
+            {
+                "key": "A gazebo at the centre of your village that produces villagers.",
+                "value": "一个城镇的中心,可以生产工作的村民."
+            },
+            {
+                "key": "You may only have one capitol building at any time.",
+                "value": "该建筑只能建造一个."
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "com/solegendary/reignofnether/building/buildings/villagers/OakStockpile"
+        },
+        "pairs": [
+            {
+                "key": "Storage for units and players to drop off resources",
+                "value": "存储工作单位和玩家的资源."
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "com/solegendary/reignofnether/building/buildings/villagers/VillagerHouse"
+        },
+        "pairs": [
+            {
+                "key": "A simple house that provides population supply.",
+                "value": "一个简单的住所,可以增加村庄补给."
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "com/solegendary/reignofnether/building/buildings/villagers/WheatFarm"
+        },
+        "pairs": [
+            {
+                "key": "  +  1  per  crop  planted",
+                "value": ""
+            },
+            {
+                "key": "A wheat field that be can tilled to collect food.",
+                "value": "一个可以耕种小麦的农田,每个种子使用1木材."
+            },
+            {
+                "key": "Workers automatically use wood to replant seeds while working.",
+                "value": "工人在工作时会自动使用木材重新播种."
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "com/solegendary/reignofnether/building/buildings/villagers/Watchtower"
+        },
+        "pairs": [
+            {
+                "key": "A fortified tower that can garrison units.",
+                "value": "一个可以驻扎单位的防御塔."
+            },
+            {
+                "key": "Garrisoned ranged units have increased range.",
+                "value": "驻扎的远程单位射程增加."
+            },
+            {
+                "key": "Can hold a maximum of 3 units",
+                "value": "最多驻扎3个单位."
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "com/solegendary/reignofnether/building/buildings/villagers/Barracks"
+        },
+        "pairs": [
+            {
+                "key": "A training ground for Pillagers and Vindicators",
+                "value": "一个训练掠夺者和卫道士的地方."
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "com/solegendary/reignofnether/building/buildings/villagers/Blacksmith"
+        },
+        "pairs": [
+            {
+                "key": "A smithy to forge military upgrades and iron golems.",
+                "value": "一个用于升级军事科技和训练铁傀儡的铁匠铺."
+            },
+            {
+                "key": "Requires a Barracks.",
+                "value": "需要一个兵营."
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "com/solegendary/reignofnether/building/buildings/villagers/ArcaneTower"
+        },
+        "pairs": [
+            {
+                "key": "A magical tower that is home to Witches and Evokers.",
+                "value": "一个居住着女巫和唤魔者的魔法塔."
+            },
+            {
+                "key": "Requires a Barracks.",
+                "value": "需要一个兵营."
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "com/solegendary/reignofnether/building/buildings/villagers/Library"
+        },
+        "pairs": [
+            {
+                "key": "An enchanting table surrounded by pillars of books.",
+                "value": "一个被书架充能的附魔台."
+            },
+            {
+                "key": "Used to research magic-related upgrades.",
+                "value": "用于研究与魔法相关的升级."
+            },
+            {
+                "key": "Requires an arcane tower.",
+                "value": "需要一个奥术塔."
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "com/solegendary/reignofnether/building/buildings/villagers/Castle"
+        },
+        "pairs": [
+            {
+                "key": "A grand castle that can produce ravagers ",
+                "value": "一个能够生产劫掠兽的大型城堡,"
+            },
+            {
+                "key": "Requires an arcane tower and a barracks.",
+                "value": "需要建造奥术塔和兵营."
+            },
+            {
+                "key": "and garrison up to 7 units.",
+                "value": "可以驻扎7个单位."
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "com/solegendary/reignofnether/building/buildings/villagers/IronGolemBuilding"
+        },
+        "pairs": [
+            {
+                "key": "An Iron Golem that can be built in the field.",
+                "value": "一个可以在战场上建造的铁傀儡."
+            },
+            {
+                "key": "Requires research at a Blacksmith",
+                "value": "需要在铁匠铺研究."
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "com/solegendary/reignofnether/hud/HudClientEvents"
+        },
+        "pairs": [
+            {
+                "key": "Gather Resources (",
+                "value": "采集资源("
+            },
+            {
+                "key": "Click to change target resource",
+                "value": "点击切换采集类型"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "com/solegendary/reignofnether/building/buildings/villagers/OakBridge"
+        },
+        "pairs": [
+            {
+                "key": "A bridge built to traverse water.",
+                "value": "一座用于跨越水域的桥."
+            },
+            {
+                "key": "Must be connected to land or another bridge.",
+                "value": "必须与陆地或者另一座桥连接."
+            },
+            {
+                "key": "Can be built over lava (but isn't fireproof!)",
+                "value": "可以在岩浆上建造.(但是不防火)"
+            },
+            {
+                "key": "Bridges can be repaired or attacked by anyone.",
+                "value": "桥梁可以被任何人攻击或修复."
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "com/solegendary/reignofnether/unit/units/villagers/VillagerProd"
+        },
+        "pairs": [
+            {
+                "key": "A worker that can construct and repair",
+                "value": "最基本的工人,可以建造和修理建筑"
+            },
+            {
+                "key": "buildings and gather resources.",
+                "value": "或者采集资源."
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "com/solegendary/reignofnether/unit/units/villagers/WitchProd"
+        },
+        "pairs": [
+            {
+                "key": "A devious hag who can heal and harm with potions.",
+                "value": "一个狡猾的巫师，能用药水进行治疗或伤害."
+            }
+        ]
+    },
+    {
+        "t": {
+            "n": "com/solegendary/reignofnether/unit/units/villagers/VindicatorProd"
+        },
+        "p": [
+            {
+                "k": "A villager armed with an axe for melee combat.",
+                "v": "一个手持斧头进行近战的村民."
+            },
+            {
+                "k": "Upgraded with diamond axes that deal +2 damage",
+                "v": "研发钻石斧以提升伤害 +2"
+            }
+        ]
+    },
+    {
+        "t": {
+            "n": "com/solegendary/reignofnether/unit/units/villagers/RavagerProd"
+        },
+        "p": [
+            {
+                "k": "An enormous beast that can smash through hordes of enemies.",
+                "v": "一个能够冲破成群敌人的巨型野兽."
+            },
+            {
+                "k": "They can roar to knockback enemies and be mounted by pillagers.",
+                "v": "它们能通过咆哮击退敌人，并且可以被掠夺者骑乘."
+            }
+        ]
+    },
+    {
+        "t": {
+            "n": "com/solegendary/reignofnether/unit/units/villagers/PillagerProd"
+        },
+        "p": [
+            {
+                "k": "A villager armed with a crossbow for ranged combat.",
+                "v": "一个手持弩进行远程战斗的村民."
+            },
+            {
+                "k": "Upgraded with multishot crossbows that fire triple arrows",
+                "v": "可以研发多重射击附魔,一次发射三根箭矢."
+            }
+        ]
+    },
+    {
+        "t": {
+            "n": "com/solegendary/reignofnether/unit/units/villagers/IronGolemProd"
+        },
+        "p": [
+            {
+                "k": "A slow hulking golem of metal with a powerful melee.",
+                "v": "一个行动缓慢、体型庞大的金属傀儡，拥有强大的近战能力."
+            },
+            {
+                "k": "attack that deals double damage to buildings.",
+                "v": "对建筑造成双倍伤害."
+            }
+        ]
+    },
+    {
+        "t": {
+            "n": "com/solegendary/reignofnether/unit/units/villagers/EvokerProd"
+        },
+        "p": [
+            {
+                "k": "A learned wizard that can cast combat spells.",
+                "v": "一个能够施放战斗法术的博学巫师."
+            },
+            {
+                "k": "Requires a Library.",
+                "v": "需要图书馆."
+            }
+        ]
+    },
+    {
+        "t": {
+            "n": "com/solegendary/reignofnether/building/buildings/monsters/DarkWatchtower"
+        },
+        "p": [
+            {
+                "k": "An ominous tower that can garrison units.",
+                "v": "一个能够驻扎单位的不祥之塔."
+            },
+            {
+                "k": "Garrisoned ranged units have increased range.",
+                "v": "驻扎的远程单位射程增加."
+            },
+            {
+                "k": "Can hold a maximum of 3 units",
+                "v": "可进驻3个单位."
+            }
+        ]
+    },
+    {
+        "t": {
+            "n": "com/solegendary/reignofnether/building/buildings/monsters/Dungeon"
+        },
+        "p": [
+            {
+                "k": "A fiery cage containing the power to create creepers.",
+                "v": "一个地牢刷怪笼,拥有生成苦力怕的力量."
+            },
+            {
+                "k": "Requires a Laboratory.",
+                "v": "需要实验室."
+            }
+        ]
+    },
+    {
+        "t": {
+            "n": "com/solegendary/reignofnether/building/buildings/monsters/Graveyard"
+        },
+        "p": [
+            {
+                "k": "A field of the dead that can raise Zombies and Skeletons",
+                "v": "一个能够召唤僵尸和骷髅的亡者之地."
+            }
+        ]
+    },
+    {
+        "t": {
+            "n": "com/solegendary/reignofnether/building/buildings/monsters/HauntedHouse"
+        },
+        "p": [
+            {
+                "k": "A spooky house that provides population supply. ",
+                "v": "一个提供补给上限的鬼屋."
+            }
+        ]
+    },
+    {
+        "t": {
+            "n": "com/solegendary/reignofnether/building/buildings/monsters/Laboratory"
+        },
+        "p": [
+            {
+                "k": "A sinister lab that can research new technologies",
+                "v": "一个能够研究新科技的阴森实验室."
+            },
+            {
+                "k": "based on the other buildings that have been built.",
+                "v": "基于已建造的其他建筑进行研究."
+            }
+        ]
+    },
+    {
+        "t": {
+            "n": "com/solegendary/reignofnether/building/buildings/monsters/Mausoleum"
+        },
+        "p": [
+            {
+                "k": "A tomb of the dead that produces zombie villagers.",
+                "v": "一个能够生产僵尸村民的亡者陵墓."
+            },
+            {
+                "k": "Distorts time to midnight within a 80 block radius.",
+                "v": "在80格范围内将时间扭曲为黑夜."
+            },
+            {
+                "k": "You may only have one capitol building at any time.",
+                "v": "该建筑只能拥有一个."
+            }
+        ]
+    },
+    {
+        "t": {
+            "n": "com/solegendary/reignofnether/building/buildings/monsters/PumpkinFarm"
+        },
+        "p": [
+            {
+                "k": "A pumpkin field that be can harvested to collect food.",
+                "v": "一个可以收割南瓜以获取食物的农场."
+            },
+            {
+                "k": "Pumpkins don't need to replanted but farms cost more up front.",
+                "v": "南瓜无需重新种植，但农场初始成本较高."
+            }
+        ]
+    },
+    {
+        "t": {
+            "n": "com/solegendary/reignofnether/building/buildings/monsters/SpiderLair"
+        },
+        "p": [
+            {
+                "k": "A silken cave to grow spiders, both large and poisonous.",
+                "v": "一个可以培育大型蜘蛛和剧毒蜘蛛的巢穴."
+            },
+            {
+                "k": "Requires a Laboratory.",
+                "v": "需要实验室"
+            }
+        ]
+    },
+    {
+        "t": {
+            "n": "com/solegendary/reignofnether/building/buildings/monsters/SpruceBridge"
+        },
+        "p": [
+            {
+                "key": "A bridge built to traverse water.",
+                "value": "一座用于跨越水域的桥."
+            },
+            {
+                "key": "Must be connected to land or another bridge.",
+                "value": "必须与陆地或者另一座桥连接."
+            },
+            {
+                "key": "Can be built over lava (but isn't fireproof!)",
+                "value": "可以在岩浆上建造.(但是不防火)"
+            },
+            {
+                "key": "Bridges can be repaired or attacked by anyone.",
+                "value": "桥梁可以被任何人攻击或修复."
+            }
+        ]
+    },
+    {
+        "t": {
+            "n": "com/solegendary/reignofnether/building/buildings/monsters/SpruceStockpile"
+        },
+        "p": [
+            {
+                "key": "Storage for units and players to drop off resources",
+                "value": "存储工作单位和玩家的资源."
+            }
+        ]
+    },
+    {
+        "t": {
+            "n": "com/solegendary/reignofnether/building/buildings/monsters/Stronghold"
+        },
+        "p": [
+            {
+                "k": "A villainous stronghold that can produce wardens ",
+                "v": "一个能够生产监守者的邪恶要塞"
+            },
+            {
+                "k": "and garrison up to 7 units.",
+                "v": "并且可以驻扎7个单位."
+            },
+            {
+                "k": "Distorts time to midnight within a 60 block radius",
+                "v": "在60格范围内将时间扭曲为午夜."
+            },
+            {
+                "k": "Requires a Graveyard, Spider Lair and Dungeon.",
+                "v": "需要墓地、蜘蛛巢穴和地牢."
+            }
+        ]
+    },
+    {
+        "t": {
+            "n": "com/solegendary/reignofnether/building/buildings/piglins/Bastion"
+        },
+        "p": [
+            {
+                "k": "A fortified barracks to house military piglins,",
+                "v": "一个用来容纳军用猪灵的加固兵营,"
+            },
+            {
+                "k": "enabling them to be produced at military portals.",
+                "v": "可以在军事传送门中解锁传送."
+            },
+            {
+                "k": "Also garrisons up to 5 units.",
+                "v": "并且可以驻扎5单位."
+            },
+            {
+                "k": "Requires a Basic Portal",
+                "v": "需要基础传送门."
+            }
+        ]
+    },
+    {
+        "t": {
+            "n": "com/solegendary/reignofnether/building/buildings/piglins/Portal"
+        },
+        "p": [
+            {
+                "k": "An obsidian portal used to spread nether blocks.",
+                "v": "一个用于扩散下界区域的黑曜石传送门."
+            },
+            {
+                "k": "Can be upgraded for various different functions.",
+                "v": "可以升级以获得各种不同的功能."
+            }
+        ]
+    },
+    {
+        "t": {
+            "n": "com/solegendary/reignofnether/building/buildings/piglins/BlackstoneBridge"
+        },
+        "p": [
+            {
+                "k": "A bridge built to traverse water or lava.",
+                "v": "一个用于跨越水域或熔岩的桥梁."
+            },
+            {
+                "k": "Must be connected to land or another bridge.",
+                "v": "必须与陆地或者另一座桥连接."
+            },
+            {
+                "k": "Bridges can be repaired or attacked by anyone.",
+                "v": "桥梁可以被任何人修复或攻击."
+            }
+        ]
+    },
+    {
+        "t": {
+            "n": "com/solegendary/reignofnether/building/buildings/piglins/CentralPortal"
+        },
+        "p": [
+            {
+                "k": "Central Portal (Capitol)",
+                "v": "中央传送门"
+            },
+            {
+                "k": "The primary portal to transport piglin grunts from the nether.",
+                "v": "中央传送门,用于将猪灵从下界折跃到此."
+            },
+            {
+                "key": "You may only have one capitol building at any time.",
+                "value": "该建筑只能建造一个."
+            }
+        ]
+    },
+    {
+        "t": {
+            "n": "com/solegendary/reignofnether/building/buildings/piglins/FlameSanctuary"
+        },
+        "p": [
+            {
+                "k": "Scorching pillars of lava and brick to keep blazes,",
+                "v": "由熔岩和砖块构成的炽热之地，用来安置烈焰人."
+            },
+            {
+                "k": "enabling their production at military portals.",
+                "v": "使它们能够在军事传送门中传送."
+            },
+            {
+                "k": "Requires Hoglin Stables.",
+                "v": "需要疣猪兽马厩."
+            }
+        ]
+    },
+    {
+        "t": {
+            "n": "com/solegendary/reignofnether/building/buildings/piglins/Fortress"
+        },
+        "p": [
+            {
+                "k": "An imposing nether fortress that allows military portals",
+                "v": "一个令人望而生畏的下界堡垒，允许军事传送门传送"
+            },
+            {
+                "k": "to produce ghasts and garrisons up to 7 units.",
+                "v": "恶魂并且可以驻扎最多7个单位."
+            },
+            {
+                "k": "Requires a Flame Sanctuary and a Wither Shrine.",
+                "v": "需要烈焰神殿和凋灵神殿."
+            }
+        ]
+    },
+    {
+        "t": {
+            "n": "com/solegendary/reignofnether/building/buildings/piglins/HoglinStables"
+        },
+        "p": [
+            {
+                "k": "A shelter to keep Hoglins stabled in the overworld,",
+                "v": "一个用来安置疣猪兽在主世界的马厩."
+            },
+            {
+                "k": "enabling their production at military portals.",
+                "v": "允许他们能在军事传送门传送."
+            },
+            {
+                "k": "Requires a Basic Portal",
+                "v": "需要基础传送门."
+            }
+        ]
+    },
+    {
+        "t": {
+            "n": "com/solegendary/reignofnether/building/buildings/piglins/NetherwartFarm"
+        },
+        "p": [
+            {
+                "k": "A field of netherwart that can be farmed collect food.",
+                "v": "一个可以收割地狱疣以获取食物的农场."
+            },
+            {
+                "k": "Workers automatically use wood to replant while working.",
+                "v": "工人在工作时会自动使用木材重新播种."
+            }
+        ]
+    },
+    {
+        "t": {
+            "n": "com/solegendary/reignofnether/building/buildings/piglins/Portal"
+        },
+        "p": [
+            {
+                "k": "An obsidian portal used to spread nether blocks.",
+                "v": "一个用于扩散下界区域的黑曜石传送门."
+            },
+            {
+                "k": "Can be upgraded for various different functions.",
+                "v": "可以升级以获得各种不同的功能."
+            }
+        ]
+    },
+    {
+        "t": {
+            "n": "com/solegendary/reignofnether/building/buildings/piglins/WitherShrine"
+        },
+        "p": [
+            {
+                "k": "A dark shrine dedicated to the power of Withers.",
+                "v": "一个供奉凋灵力量的黑暗神殿."
+            },
+            {
+                "k": "Enables wither skeletons production at military portals. ",
+                "v": "使凋灵骷髅能够在军事传送门中传送."
+            },
+            {
+                "k": "Requires a Bastion.",
+                "v": "需要堡垒."
+            }
+        ]
+    },
+    {
+        "t": {
+            "name": "com/solegendary/reignofnether/time/TimeClientEvents"
+        },
+        "p": [
+            {
+                "k": " (day)",
+                "v": " (白天)"
+            },
+            {
+                "k": " (night)",
+                "v": " (夜晚)"
+            },
+            {
+                "k": "Game time: ",
+                "v": "游戏时间: "
+            },
+            {
+                "k": " until ",
+                "v": " 后 "
+            },
+            {
+                "k": "night",
+                "v": "夜晚"
+            },
+            {
+                "k": "day",
+                "v": "白天"
+            }
+        ]
+    },
+    {
+        "t": {
+            "name": "com/solegendary/reignofnether/building/BuildingClientEvents"
+        },
+        "p": [
+            {
+                "k": "Outside or too close to map border",
+                "v": "建造出界或过于靠近边界"
+            },
+            {
+                "k": "Ground is not flat enough",
+                "v": "地面不够平坦"
+            },
+            {
+                "k": "Too close to another building",
+                "v": "与其他建筑太近"
+            },
+            {
+                "k": "Must be built on nether terrain",
+                "v": "必须建造在下届感染土壤上"
+            },
+            {
+                "k": "Must be placed in water or lava",
+                "v": "必须建造在水或岩浆上"
+            },
+            {
+                "k": "Area is unexplored",
+                "v": "区域未探索"
+            }
+        ]
+    },
+    {
+        "t": {
+            "name": "com/solegendary/reignofnether/resources/ResourcesClientboundPacket"
+        },
+        "p": [
+            {
+                "k": "You don't have enough ",
+                "v": "你没有足够的"
+            },
+            {
+                "k": "food",
+                "v": "食物"
+            },
+            {
+                "k": "wood",
+                "v": "木头"
+            },
+            {
+                "k": "ore",
+                "v": "矿石"
+            },
+            {
+                "k": "and wood",
+                "v": "和木头"
+            },
+            {
+                "k": "and ore",
+                "v": "和矿石"
+            }
+        ]
+    },
+    {
+        "t": {
+            "n": "com/solegendary/reignofnether/unit/units/piglins/BlazeProd"
+        },
+        "p": [
+            {
+                "k": "A fiery elemental that shoots fireballs from afar.",
+                "v": "一个能够远程发射火球的火焰元素."
+            },
+            {
+                "k": "Attacks are fast and ignite enemies but inaccurate.",
+                "v": "攻击速度快且能点燃敌人，但是不够准确."
+            },
+            {
+                "k": "Requires a Flame Sanctuary.",
+                "v": "需要烈焰神殿."
+            }
+        ]
+    },
+    {
+        "t": {
+            "n": "com/solegendary/reignofnether/unit/units/piglins/BruteProd"
+        },
+        "p": [
+            {
+                "k": "A piglin armed with a sword for combat.",
+                "v": "一个持剑战斗的猪灵."
+            }
+        ]
+    },
+    {
+        "t": {
+            "n": "com/solegendary/reignofnether/unit/units/piglins/GhastProd"
+        },
+        "p": [
+            {
+                "k": "A massive flying creature that fires explosive fireballs",
+                "v": "一个发射爆炸性火球的巨型飞行生物."
+            },
+            {
+                "k": "from a great distance to siege units and buildings.",
+                "v": "“从远距离对攻城单位和建筑物进行攻击."
+            },
+            {
+                "k": "Slow and fragile, but can only be targeted by ranged units.",
+                "v": "行动缓慢且脆弱，但只能被远程单位攻击."
+            },
+            {
+                "k": "Requires a Fortress.",
+                "v": "需要堡垒."
+            }
+        ]
+    },
+    {
+        "t": {
+            "n": "com/solegendary/reignofnether/unit/units/piglins/GruntProd"
+        },
+        "p": [
+            {
+                "k": "A piglin worker that can construct and ",
+                "v": "一个可以建造的猪灵工人，并且"
+            },
+            {
+                "k": "repair buildings and gather resources.",
+                "v": "可以修复建筑和采集资源."
+            }
+        ]
+    },
+    {
+        "t": {
+            "n": "com/solegendary/reignofnether/unit/units/piglins/HeadhunterProd"
+        },
+        "p": [
+            {
+                "k": "A piglin that throws tridents in battle.",
+                "v": "一个在战斗中投掷三叉戟的猪灵。"
+            },
+            {
+                "k": "Requires a Bastion.",
+                "v": "需要要塞."
+            }
+        ]
+    },
+    {
+        "t": {
+            "n": "com/solegendary/reignofnether/unit/units/piglins/HoglinProd"
+        },
+        "p": [
+            {
+                "k": "A beast trained for war. Deals 50% more damage to buildings.",
+                "v": "一个经过战争训练的野兽，对建筑物造成50%额外伤害."
+            },
+            {
+                "k": "Can be upgraded to be mountable by Headhunters.",
+                "v": "可以升级为由猎头者骑乘."
+            },
+            {
+                "k": "Requires Hoglin Stables.",
+                "v": "需要疣猪兽马厩."
+            }
+        ]
+    },
+    {
+        "t": {
+            "n": "com/solegendary/reignofnether/unit/units/piglins/WitherSkeletonProd"
+        },
+        "p": [
+            {
+                "k": "A charcoal black skeleton that afflicts",
+                "v": "一个炭黑色的骷髅，能够施加"
+            },
+            {
+                "k": "wither on enemies and deals bonus damage",
+                "v": "“凋零”效果给敌人，并造成额外伤害"
+            },
+            {
+                "k": "(up to double) to enemies near death.",
+                "v": "“对濒死的敌人造成额外伤害（最多双倍）."
+            },
+            {
+                "k": "Requires a Wither Shrine.",
+                "v": "需要凋零神殿."
+            }
+        ]
+    },
+    {
+        "t": {
+            "n": "com/solegendary/reignofnether/unit/units/monsters/CreeperProd"
+        },
+        "p": [
+            {
+                "k": "An explosive monster that can blow up units and buildings.",
+                "v": "一个可以通过爆炸摧毁建筑、炸伤单位的怪物"
+            },
+            {
+                "k": "Deals less damage to capitol buildings.",
+                "v": "对大本营的伤害造成的伤害较低."
+            },
+            {
+                "k": "Creepers move much more slowly under sunlight.",
+                "v": "苦力怕在白天的移动速度将大幅减慢."
+            }
+        ]
+    },
+    {
+        "t": {
+            "n": "com/solegendary/reignofnether/unit/units/monsters/DrownedProd"
+        },
+        "p": [
+            {
+                "k": "An infectious variant of the zombie which zombifies",
+                "v": "僵尸单位的一种变种"
+            },
+            {
+                "k": "villagers and piglins after killing them.",
+                "v": "僵尸在击杀村民或猪灵后会将其转化为僵尸."
+            },
+            {
+                "k": "Drowned will burn under sunlight.",
+                "v": "在白天单位会燃烧."
+            },
+            {
+                "k": "Requires an upgrade at the Laboratory.",
+                "v": "需要在实验室研发"
+            }
+        ]
+    },
+    {
+        "t": {
+            "n": "com/solegendary/reignofnether/unit/units/monsters/HuskProd"
+        },
+        "p": [
+            {
+                "k": "A hardy variant of the zombie with tougher skin.",
+                "v": "僵尸单位的防护变种,拥有更坚韧的皮肤."
+            },
+            {
+                "k": "Husks DO NOT burn under sunlight.",
+                "v": "Husks 不会在阳光下燃烧."
+            },
+            {
+                "k": "Requires an upgrade at the Laboratory.",
+                "v": "需要在实验室研发"
+            }
+        ]
+    },
+    {
+        "t": {
+            "n": "com/solegendary/reignofnether/unit/units/monsters/PoisonSpiderProd"
+        },
+        "p": [
+            {
+                "k": "Spiders move much more slowly under sunlight.",
+                "v": "蜘蛛在阳光下的移动速度会大幅降低"
+            },
+            {
+                "k": "A spider fanged with deadly poison.",
+                "v": "拥有致命毒液的蜘蛛变种."
+            },
+            {
+                "k": "Requires an upgrade at the Laboratory.",
+                "v": "需要在实验室研发"
+            }
+        ]
+    },
+    {
+        "t": {
+            "n": "com/solegendary/reignofnether/unit/units/monsters/SkeletonProd"
+        },
+        "p": [
+            {
+                "k": "An undead soldier with a bow and arrows.",
+                "v": "一个手持弓箭的亡灵士兵."
+            },
+            {
+                "k": "Skeletons will burn under sunlight.",
+                "v": "Skeletons 会在阳光下燃烧."
+            }
+        ]
+    },
+    {
+        "t": {
+            "n": "com/solegendary/reignofnether/unit/units/monsters/SpiderProd"
+        },
+        "p": [
+            {
+                "k": "A giant spider that is nimble but frail.",
+                "v": "一个大型蜘蛛单位,但是比较脆弱."
+            },
+            {
+                "k": "Can be upgraded to allow skeletons to ride them.",
+                "v": "可以升级后允许骷髅骑乘他们."
+            },
+            {
+                "k": "Spiders move much more slowly under sunlight.",
+                "v": "蜘蛛在阳光下的移动速度会大幅降低"
+            }
+        ]
+    },
+    {
+        "t": {
+            "n": "com/solegendary/reignofnether/unit/units/monsters/StrayProd"
+        },
+        "p": [
+            {
+                "k": "An chilling variant of the skeleton that fires slowing arrows.",
+                "v": "骷髅士兵的冰冻变种,可以射出减速箭让敌人减速."
+            },
+            {
+                "k": "Strays will burn under sunlight.",
+                "v": "Strays 会在阳光下燃烧."
+            },
+            {
+                "k": "Requires an upgrade at the Laboratory.",
+                "v": "需要在实验室研发"
+            }
+        ]
+    },
+    {
+        "t": {
+            "n": "com/solegendary/reignofnether/unit/units/monsters/WardenProd"
+        },
+        "p": [
+            {
+                "k": "A powerful but blind monster that can fire sonic booms.",
+                "v": "一个非常强大但是没有视野的怪物,可以发射音波冲击."
+            }
+        ]
+    },
+    {
+        "t": {
+            "n": "com/solegendary/reignofnether/unit/units/monsters/ZombieProd"
+        },
+        "p": [
+            {
+                "k": "An undead monster with a basic melee attack.",
+                "v": "一个拥有基础近战攻击的亡灵士兵."
+            },
+            {
+                "k": "Zombies will burn under sunlight.",
+                "v": "僵尸 会在阳光下燃烧."
+            }
+        ]
+    },
+    {
+        "t": {
+            "n": "com/solegendary/reignofnether/unit/units/monsters/ZombieVillagerProd"
+        },
+        "p": [
+            {
+                "key": "An undead worker that can construct and",
+                "value": "最基本的亡灵工人,可以建造和修理建筑"
+            },
+            {
+                "key": "repair buildings and gather resources.",
+                "value": "或者采集资源."
+            },
+            {
+                "k": "Zombie villagers DO NOT burn under sunlight.",
+                "v": "僵尸村民 不会在阳光下燃烧."
+            }
+        ]
+    },
+    {
+        "t": {
+            "n": "com/solegendary/reignofnether/tutorial/TutorialClientEvents"
+        },
+        "p": [
+            {
+                "k": "Welcome back... resuming at stage: ",
+                "v": "欢迎回来..... 恢复到阶段:"
+            },
+            {
+                "k": "Welcome to the Reign of Nether Tutorial!",
+                "v": "欢迎来到 Regign of Nether 教程!"
+            },
+            {
+                "k": "Press F12 to get started.",
+                "v": "按下F12开始."
+            },
+            {
+                "k": "Skipping tutorial stage... you are now on: ",
+                "v": "跳过教程阶段.... 你当前在阶段: "
+            },
+            {
+                "k": "Press SPACE when you're ready to continue.",
+                "v": "按下 空格 当你准备继续."
+            },
+            {
+                "k": "Welcome to RTS view. Instead of the usual first-person minecraft camera, here we can view the world from a top-down perspective.",
+                "v": "欢迎来到RTS视角。与通常的第一人称Minecraft相机不同，在这里我们可以从上帝视角俯瞰世界。"
+            },
+            {
+                "k": "TIP: If you want to see any of these messages again, open chat with ENTER or the button on the right.",
+                "v": "提示：如果你想再次查看这些消息，按下 ENTER 键或点击右侧的按钮打开聊天窗口。"
+            },
+            {
+                "k": "If at any point you're lost or need a reminder on what to do next, click the button at the top right. Try doing that now to continue.",
+                "v": "如果你在任何时候感到迷失或需要提醒下一步该做什么，点击右上角的按钮。现在试着点击它以继续。"
+            },
+            {
+                "k": "To move your camera, move your mouse to the edges of the screen. Try it now.",
+                "v": "要移动你的相机视角，将鼠标移到屏幕边缘。现在试试看。"
+            },
+            {
+                "k": "TIP: You can also move the camera with arrow keys.",
+                "v": "提示：你也可以使用方向键移动相机视角。"
+            },
+            {
+                "k": "TIP: You can zoom the camera with ALT+SCROLL and rotate it with ALT+RIGHT-CLICK.",
+                "v": "提示：你可以通过按住 ALT + 滚轮缩放相机，按住 ALT + 右键旋转相机。"
+            },
+            {
+                "k": "Since you could get lost with a top-down view like this, here's a minimap for you to help navigate.",
+                "v": "由于你可能在这种上帝视角中迷失方向，提供一个小地图来帮助你导航。"
+            },
+            {
+                "k": "You can move around the world quickly by clicking on a spot on the map. Try doing that now.",
+                "v": "你可以通过点击小地图上的某个位置快速移动到世界中的相应地点。现在试试看。"
+            },
+            {
+                "k": "If you need to move really far away, you can also SHIFT+CLICK to recentre the map on that location.",
+                "v": "如果你需要移动到很远的地方，你也可以使用 SHIFT+单击将地图重新对准那个位置。"
+            },
+            {
+                "k": "TIP: Press M or click the bottom right button to expand the map.",
+                "v": "提示：按 M 键或点击右下角的按钮展开地图。"
+            },
+            {
+                "k": "It's time to start playing with some units.",
+                "v": "是时候开始使用一些单位了。"
+            },
+            {
+                "k": "Let's get started by spawning in some villagers here.",
+                "v": "让我们从在这里生成一些村民开始。"
+            },
+            {
+                "k": "Click the button at the top right and then click on the ground where you want to place them.",
+                "v": "点击右上角的按钮，然后点击你想要放置他们的地面。"
+            },
+            {
+                "k": "Villagers are your worker units who can build and gather resources and are essential to starting and maintaining a good base.",
+                "v": "村民是你的工人单位，可以建造和收集资源，对于开始和维持一个良好的基地至关重要。"
+            },
+            {
+                "k": "Try selecting one with LEFT-CLICK.",
+                "v": "试着用左键选择一个村民。"
+            },
+            {
+                "k": "Now, RIGHT-CLICK where you want to move it.",
+                "v": "现在，右键点击你想移动的位置。"
+            },
+            {
+                "k": "Now let's try selecting a group of villagers.",
+                "v": "现在让我们试着选择一群村民。"
+            },
+            {
+                "k": "To do this, hold LEFT-CLICK and DRAG your mouse across them, then release to select.",
+                "v": "要做到这一点，按住左键并拖动鼠标穿过他们，然后松开以选择。"
+            },
+            {
+                "k": "Now, RIGHT-CLICK where you want to move the group.",
+                "v": "现在，右键点击你想移动这群村民的位置。"
+            },
+            {
+                "k": "TIP: You can also double click a unit to select all units of the same type.",
+                "v": "提示：你也可以双击一个单位来选择所有相同类型的单位。"
+            },
+            {
+                "k": "TIP: If you want to deselect your units, press the tilde (~) key",
+                "v": "提示：如果你想取消选择单位，按下波浪号（~）键。"
+            },
+            {
+                "k": "TIP: For you RTS fans, control grouping with CTRL+NUM is also a feature.",
+                "v": "提示：对于RTS爱好者，CTRL+数字键的编组功能也是可用的。"
+            },
+            {
+                "k": "It's time to start your base.",
+                "v": "是时候开始建造你的基地了。"
+            },
+            {
+                "k": "The first and most important building of any base is always the capitol.",
+                "v": "任何基地的第一个也是最重要的建筑总是首都。"
+            },
+            {
+                "k": "This looks like a good spot for it, being flat ground, near lots of resources and with plenty of space around it for other buildings.",
+                "v": "这里看起来是个好地方，平坦的地面，靠近许多资源，并且周围有足够的空间建造其他建筑。"
+            },
+            {
+                "k": "Note that building takes resources. Luckily, the TOP-LEFT shows we have more than enough WOOD and ORE needed.",
+                "v": "请注意，建造需要资源。幸运的是，左上角显示我们有足够的木材和矿石。"
+            },
+            {
+                "k": "Select your workers, then click the bottom-left button and click on the ground where you want to place your capitol.",
+                "v": "选择你的工人，然后点击左下角的按钮，并点击你想放置首都的位置。"
+            },
+            {
+                "k": "Just wait for your Town Centre to complete. If your workers stopped building for some reason, just select them and RIGHT-CLICK it to resume.",
+                "v": "等待你的城镇中心建造完成。如果你的工人因某种原因停止建造，只需选择他们并右键点击以继续。"
+            },
+            {
+                "k": "You can also select the building itself like a unit to see how far along it is in building.",
+                "v": "你也可以像选择单位一样选择建筑物，查看它的建造进度。"
+            },
+            {
+                "k": "Congratulations, you now have a base set up!",
+                "v": "恭喜，你现在已经建好了基地！"
+            },
+            {
+                "k": "Capitols like the Town Centre are the only building that can produce workers like villagers.",
+                "v": "像城镇中心这样的首都是唯一可以生产工人（如村民）的建筑。"
+            },
+            {
+                "k": "Note that producing workers takes 50 FOOD each. We should have enough resources for quite a lot.",
+                "v": "请注意，每生产一个工人需要50食物。我们应该有足够的资源来生产许多工人。"
+            },
+            {
+                "k": "LEFT-CLICK to select your Town Centre, then RIGHT-CLICK on the ground to set a rally point.",
+                "v": "左键点击选择你的城镇中心，然后右键点击地面来设置集结点。"
+            },
+            {
+                "k": "Now let's try making a villager. With your Town Centre selected, click the bottom-left button to start producing one.",
+                "v": "现在让我们试着制造一个村民。选择你的城镇中心，点击左下角的按钮开始生产。"
+            },
+            {
+                "k": "TIP: You can queue up as many units to build as you can afford.",
+                "v": "提示：你可以根据你的资源排队生产多个单位。"
+            },
+            {
+                "k": "TIP: You can cancel any in-progress units for a full refund by clicking their icon at the bottom.",
+                "v": "提示：你可以通过点击底部的图标取消任何正在生产的单位，并获得全额退款。"
+            },
+            {
+                "k": "Now that we have a bunch of workers, we can start gathering some resources.",
+                "v": "现在我们有了一些工人，可以开始收集资源了。"
+            },
+            {
+                "k": "There's a forest over here that we can get wood from.",
+                "v": "这里有一片森林，我们可以从中获取木材。"
+            },
+            {
+                "k": "To gather a resource, select a worker, then RIGHT-CLICK a tree.",
+                "v": "要收集资源，选择一个工人，然后右键点击一棵树。"
+            },
+            {
+                "k": "TIP: Workers keep gathering until told to do something else. Once they have at least 50 total resources they return it to the town centre.",
+                "v": "提示：工人会一直收集资源，直到被指示做其他事情。当他们至少有50单位资源时，他们会将其带回城镇中心。"
+            },
+            {
+                "k": "Now let's do the same thing for ore.",
+                "v": "现在让我们对矿石做同样的事情。"
+            },
+            {
+                "k": "Here's a beach with coal and copper we can get ore from.",
+                "v": "这里有一个海滩，我们可以从中获取煤炭和铜矿石。"
+            },
+            {
+                "k": "Select a worker, then RIGHT-CLICK an ore block.",
+                "v": "选择一个工人，然后右键点击矿石块。"
+            },
+            {
+                "k": "Well done.",
+                "v": "干得好。"
+            },
+            {
+                "k": "TIP: Sandy biomes like deserts and beaches have more and better ores.",
+                "v": "提示：像沙漠和海滩这样的沙质生物群系拥有更多更好的矿石。"
+            },
+            {
+                "k": "While your other workers are busy on wood and ore, let's find some food.",
+                "v": "当其他工人忙于木材和矿石时，让我们去寻找一些食物。"
+            },
+            {
+                "k": "Here are some pigs that you can hunt for food.",
+                "v": "这里有一些猪，你可以猎杀它们获取食物。"
+            },
+            {
+                "k": "Just like wood and ore, select a worker and RIGHT-CLICK an animal to start hunting it.",
+                "v": "就像木材和矿石一样，选择一个工人并右键点击一只动物开始狩猎。"
+            },
+            {
+                "k": "Make sure your worker isn't holding any other resources!",
+                "v": "确保你的工人没有携带其他资源！"
+            },
+            {
+                "k": "TIP: If your worker can't hold all the food after hunting an animal, it will drop to the ground.",
+                "v": "提示：如果你的工人在狩猎动物后无法携带所有食物，食物将掉落在地上。"
+            },
+            {
+                "k": "TIP: Dropped items like food and saplings can be picked by ANY unit and returned for resources.",
+                "v": "提示：像食物和树苗这样的掉落物可以被任何单位拾取并带回资源。"
+            },
+            {
+                "k": "Great work!",
+                "v": "干得好！"
+            },
+            {
+                "k": "Your villager should now return the food to your town centre, but if they aren't, simply select the villager and RIGHT-CLICK your Town Centre.",
+                "v": "你的村民现在应该会把食物带回城镇中心，但如果他们没有这样做，只需选择村民并右键点击你的城镇中心。"
+            },
+            {
+                "k": "TIP: Units hold up to 100 total resources, but hunting allows you to go above this maximum.",
+                "v": "提示：单位最多可以携带100单位资源，但狩猎允许你超过这个上限。"
+            },
+            {
+                "k": "Let's expand your base. Some new buildings have been unlocked for you. Select a worker if you haven't already to check them out.",
+                "v": "让我们扩展你的基地。一些新建筑已经为你解锁。如果你还没有选择工人，请选择一个工人查看。"
+            },
+            {
+                "k": "Stockpiles can give your workers a place to drop off resources faster.",
+                "v": "储存仓可以让你的工人更快地存放资源。"
+            },
+            {
+                "k": "Houses raise your max unit population. Check the top left for your current totals.",
+                "v": "房屋可以增加你的最大单位人口。查看左上角以了解当前的总数。"
+            },
+            {
+                "k": "Farms give you a slow but renewable source of food in exchange for wood.",
+                "v": "农场为你提供缓慢但可再生的食物来源，以木材为代价。"
+            },
+            {
+                "k": "Finally, a barracks lets you start training soldiers to fight enemies.",
+                "v": "最后，兵营让你开始训练士兵与敌人作战。"
+            },
+            {
+                "k": "Let's take some time to check out a few of these buildings.",
+                "v": "让我们花些时间查看这些建筑。"
+            },
+            {
+                "k": "When you're ready, build a barracks and get prepared to train your first army.",
+                "v": "当你准备好时，建造一个兵营并准备训练你的第一支军队。"
+            },
+            {
+                "k": "Great job.",
+                "v": "做得好。"
+            },
+            {
+                "k": "The barracks is one of many buildings that can produce military units. Select your barracks to check them out.",
+                "v": "兵营是许多可以生产军事单位的建筑之一。选择你的兵营来查看它们。"
+            },
+            {
+                "k": "Vindicators are melee units with high health and moderate damage.",
+                "v": "卫道士是拥有高生命值和中等伤害的近战单位。"
+            },
+            {
+                "k": "Pillagers are ranged units which attack slowly but with high damage.",
+                "v": "掠夺者是远程单位，攻击速度慢但伤害高。"
+            },
+            {
+                "k": "Try building 3 units from here to continue.",
+                "v": "从这里开始建造3个单位以继续。"
+            },
+            {
+                "k": "Awesome!",
+                "v": "真棒！"
+            },
+            {
+                "k": "TIP: If you lose track of your military units, you can press K or click the button on the right to select all of them at once.",
+                "v": "提示：如果你跟丢了你的军事单位，你可以按K键或点击右侧的按钮一次性选择所有单位。"
+            },
+            {
+                "k": "Uh oh, looks like some monsters are about to attack!",
+                "v": "哦不，看起来一些怪物即将攻击！"
+            },
+            {
+                "k": "With your units selected, RIGHT-CLICK an enemy to attack them. Units will also automatically attack nearby enemies if they are idle.",
+                "v": "选择你的单位后，右键点击一个敌人攻击他们。单位在空闲时也会自动攻击附近的敌人。"
+            },
+            {
+                "k": "Watch out! More monsters incoming!",
+                "v": "小心！更多的怪物来了！"
+            },
+            {
+                "k": "Dawn breaks!",
+                "v": "黎明到来！"
+            },
+            {
+                "k": "Nicely done, you successfully defended your base!",
+                "v": "做得好，你成功防守了你的基地！"
+            },
+            {
+                "k": "Looks like some of your buildings were damaged in the attack.",
+                "v": "看起来你的一些建筑在攻击中受到了损坏。"
+            },
+            {
+                "k": "Try repairing one of them by selecting a villager, then RIGHT-CLICKING the damaged building. Repairs cost 1 wood for each block.",
+                "v": "试着通过选择一个村民，然后右键点击损坏的建筑进行修复。每个方块的修复费用为1单位木材。"
+            },
+            {
+                "k": "TIP: Building health is determined by how many blocks it's made up of. If they have less than half blocks remaining, they are destroyed completely.",
+                "v": "提示：建筑物的生命值取决于它由多少个方块组成。如果剩余的方块少于一半，它们将完全被摧毁。"
+            },
+            {
+                "k": "The monsters have a base across the river (but you can't see it yet because fog of war is enabled). We should destroy it before they attack again.",
+                "v": "怪物在河对岸有一个基地（但你暂时看不到，因为战争迷雾已启用）。我们应该在他们再次进攻之前摧毁它。"
+            },
+            {
+                "k": "To cross the river, we need to build a bridge.",
+                "v": "为了过河，我们需要建造一座桥。"
+            },
+            {
+                "k": "This looks like a good spot for one. Select a worker and build a bridge here. You can scroll to rotate the bridge before placement.",
+                "v": "这里看起来是一个不错的位置。选择一个工人并在这里建造一座桥。在放置之前，你可以滚动来旋转桥梁。"
+            },
+            {
+                "k": "TIP: You may need more than one bridge segment to cross the river. After completing one you can connect new segments to it.",
+                "v": "提示：你可能需要多个桥段来过河。完成一个桥段后，你可以连接新的桥段。"
+            },
+            {
+                "k": "Nice job.",
+                "v": "做得好。"
+            },
+            {
+                "k": "TIP: Bridges are always neutral regardless of who built them. This means anyone can attack, repair and connect new segments to them.",
+                "v": "提示：无论是谁建造的，桥梁始终是中立的。这意味着任何人都可以攻击、修复并连接新的桥段。"
+            },
+            {
+                "k": "TIP: Be very careful when crossing bridges. If it is destroyed while your units are crossing, they will land in the water and be defenceless!",
+                "v": "提示：过桥时要非常小心。如果桥梁在你的单位过桥时被摧毁，他们将落入水中并且无法自卫！"
+            },
+            {
+                "k": "Reinforcements have arrived! Use them to crush the enemy base!",
+                "v": "援军已到达！用他们来摧毁敌人的基地！"
+            },
+            {
+                "k": "Your army includes an iron golem and your workers can now build blacksmiths to produce more if needed.",
+                "v": "你的军队包括一个铁傀儡，如果需要，你的工人现在可以建造铁匠铺来生产更多的铁傀儡。"
+            },
+            {
+                "k": "TIP: Most ranged units can't attack buildings. Order them to attack units instead!",
+                "v": "提示：大多数远程单位不能攻击建筑物。命令他们攻击单位吧！"
+            },
+            {
+                "k": "TIP: The monsters' capitol, the Mausoleum, produces an artificial night time around it. If you can destroy it during the day, undead units will burn under the sun.",
+                "v": "提示：怪物的首都，陵墓，会在周围产生一个人造夜晚。如果你能在白天摧毁它，不死单位将在阳光下燃烧。"
+            },
+            {
+                "k": "Nicely done.",
+                "v": "做得好。"
+            },
+            {
+                "k": "Good work!",
+                "v": "干得漂亮！"
+            },
+            {
+                "k": "Excellent.",
+                "v": "出色。"
+            },
+            {
+                "k": "Nice work.",
+                "v": "干得好。"
+            },
+            {
+                "k": "Great job!",
+                "v": "做得好！"
+            },
+            {
+                "k": "Congratulations, you now have a base set up!",
+                "v": "恭喜，你现在已经建好了基地！"
+            },
+            {
+                "k": "Nice work. Workers are vital for a healthy base!",
+                "v": "干得好。工人对于维持一个健康的基地至关重要！"
+            },
+            {
+                "k": "Well done.",
+                "v": "干得好。"
+            },
+            {
+                "k": "Great work!",
+                "v": "干得好！"
+            },
+            {
+                "k": "Excellent.",
+                "v": "出色。"
+            },
+            {
+                "k": "Great job.",
+                "v": "做得好。"
+            },
+            {
+                "k": "Awesome!",
+                "v": "太棒了！"
+            },
+            {
+                "k": "Dawn breaks!",
+                "v": "黎明破晓！"
+            },
+            {
+                "k": "Nicely done, you successfully defended your base!",
+                "v": "做得好，你成功地防守住了你的基地！"
+            },
+            {
+                "k": "Good job!",
+                "v": "干得漂亮！"
+            },
+            {
+                "k": "Nice job.",
+                "v": "干得好。"
+            },
+            {
+                "k": "Congratulations! You have completed the tutorial!",
+                "v": "恭喜！你已经完成了教程！"
+            },
+            {
+                "k": "Tutorial mode disabled",
+                "v": "教程模式已禁用。"
+            },
+            {
+                "k": "If they aren't already, you can have all of your villagers help to build to speed up progress. To do this, select your workers and RIGHT-CLICK the building.",
+                "v": "如果他们还没有开始，你可以让所有村民帮助建造，以加快进度。为此，选择你的工人并右键点击建筑物。"
+            },
+            {
+                "k": "Note that producing workers takes 50 FOOD each. We should have enough resources for quite a lot.",
+                "v": "请注意，每生产一个工人需要50食物。我们应该有足够的资源来生产很多工人。"
+            },
+            {
+                "k": "LEFT-CLICK to select your Town Centre, then RIGHT-CLICK on the ground to set a rally point.",
+                "v": "左键点击选择你的城镇中心，然后右键点击地面设置集结点。"
+            },
+            {
+                "k": "TIP: you can queue up as many units to build as you can afford.",
+                "v": "提示：你可以根据你的资源排队建造尽可能多的单位。"
+            },
+            {
+                "k": "TIP: you can cancel any in-progress units for a full refund by clicking their icon at the bottom.",
+                "v": "提示：你可以通过点击底部的图标取消任何正在建造的单位，并获得全额退款。"
+            },
+            {
+                "k": "LEFT-CLICK to select your Town Centre, RIGHT-CLICK to set a rally point - units will automatically go to that spot when they appear.",
+                "v": "左键点击选择你的城镇中心，右键点击设置集结点——单位出现后会自动前往该位置。"
+            },
+            {
+                "k": "Select any villager, then RIGHT-CLICK any tree.",
+                "v": "选择任意村民，然后右键点击任意树木。"
+            },
+            {
+                "k": "When you're ready, build a barracks and get prepare to train your first army.",
+                "v": "当你准备好时，建造一个兵营，并准备训练你的第一支军队。"
+            },
+            {
+                "k": "TIP: During an attack, be sure to protect your workers. If a worker dies while holding resources, it is dropped and can be stolen by your enemies!",
+                "v": "提示：在攻击期间，一定要保护你的工人。如果工人在携带资源时死亡，资源会掉落并可能被你的敌人偷走！"
+            },
+            {
+                "k": "The monsters have a base across the river, we should destroy it before they attack again.",
+                "v": "怪物在河对岸有一个基地，我们应该在它们再次攻击之前摧毁它。"
+            },
+            {
+                "k": "Congratulations! You have completed the tutorial!",
+                "v": "恭喜！你已经完成了教程！"
+            },
+            {
+                "k": "You may now continue with all of the buildings and units unlocked.",
+                "v": "你现在可以继续游戏，所有的建筑和单位已解锁。"
+            },
+            {
+                "k": "To reset the game and try a new faction, type /rts-reset",
+                "v": "要重置游戏并尝试一个新阵营，请输入 /rts-reset"
+            },
+            {
+                "k": "If you would like to play against another player, check out the Reign of Nether CurseForge page for a guide on server hosting.",
+                "v": "如果你想与其他玩家对战，请查看 Reign of Nether 的 CurseForge 页面，获取服务器托管指南。"
+            },
+            {
+                "k": "Until next time... Good luck and have fun!",
+                "v": "直到下次见... 祝你好运，玩得开心！"
+            }
+        ]
+    },
+    {
+        "t": {
+            "n": "com/solegendary/reignofnether/player/PlayerClientEvents"
+        },
+        "p": [
+            {
+                "k": "F12 - Toggle RTS camera",
+                "v": "F12 - 切换RTS视角"
+            },
+            {
+                "k": "F8 - Refresh chunks",
+                "v": "F8 - 刷新区块"
+            },
+            {
+                "k": "F7 - Toggle FPS/TPS counters",
+                "v": "F7 - 切换显示 FPS/TPS 计数器"
+            },
+            {
+                "k": "F6 - Toggle hide leaves (experimental)",
+                "v": "F6 - 切换隐藏树叶（实验性）"
+            },
+            {
+                "k": "~ - Deselect all units and buildings",
+                "v": "~ - 取消选择所有单位和建筑"
+            },
+            {
+                "k": "/rts-fog enable/disable - Toggle fog of war for all players",
+                "v": "/rts-fog enable/disable - 切换所有玩家的战争迷雾"
+            },
+            {
+                "k": "/rts-surrender - Concede the match",
+                "v": "/rts-surrender - 认输"
+            },
+            {
+                "k": "/rts-reset - Delete all units/buildings, set all to spectator",
+                "v": "/rts-reset - 删除所有单位/建筑，将所有单位设置为观众"
+            },
+            {
+                "k": "/rts-lock enable/disable - Prevent all players from joining the RTS match",
+                "v": "/rts-lock enable/disable - 阻止所有玩家加入RTS比赛"
+            },
+            {
+                "k": "Right click - move, attack or set rallypoint",
+                "v": "右键点击 - 移动，攻击或设置集结点"
+            },
+            {
+                "k": "Ctrl + number key - Create control group",
+                "v": "Ctrl + 数字键 - 创建控制组"
+            },
+            {
+                "k": "Shift + left-click on map - recenter map",
+                "v": "Shift + 左键点击地图 - 重新居中地图"
+            },
+            {
+                "k": "Double left-click on unit - select all same units",
+                "v": "双击左键点击单位 - 选择所有相同单位"
+            },
+            {
+                "k": "Delete - destroy selected units/buildings",
+                "v": "Delete - 摧毁选择的单位/建筑"
+            },
+            {
+                "k": "Alt + right-click - rotate camera",
+                "v": "Alt + 右键点击 - 旋转相机"
+            },
+            {
+                "k": "Alt + scroll - zoom in/out",
+                "v": "Alt + 滚动 - 放大/缩小"
+            }
+        ]
+    },
+    {
+        "t": {
+            "name": "com.solegendary.reignofnether.research.researchItems.ResearchAdvancedPortals"
+        },
+        "p": [
+            {
+                "k": "Allows portals to be constructed off of nether terrain",
+                "v": "允许在非下界地形上建造传送门，"
+            },
+            {
+                "k": "and enables them to be upgraded into transport portals,",
+                "v": "并能将其升级为运输传送门(transport portals),"
+            },
+            {
+                "k": "which can instantly teleport units between them.",
+                "v": "可以在它们之间超时空传送单位。"
+            }
+        ]
+    },
+    {
+        "t": {
+            "name": "com.solegendary.reignofnether.research.researchItems.ResearchBlazeFirewall"
+        },
+        "p": [
+            {
+                "k": "Allows Blazes to fire a single shot that ignites all",
+                "v": "允许烈焰人发射的一枚火球点燃路径内所有方块，"
+            },
+            {
+                "k": "blocks in a line, but disables their attacks temporarily.",
+                "v": "但会使其进入虚弱状态，暂时无法进行攻击。"
+            }
+        ]
+    },
+    {
+        "t": {
+            "name": "com.solegendary.reignofnether.research.researchItems.ResearchBruteShields"
+        },
+        "p": [
+            {
+                "k": "Allows Brutes to raise a shield to reduce projectile ",
+                "v": "使蛮兵能够举起盾牌减少伤害 "
+            },
+            {
+                "k": "damage taken by 67% and movement speed by 50%.",
+                "v": "所受伤害减少67%，移动速度减少50%."
+            }
+        ]
+    },
+    {
+        "t": {
+            "name": "com.solegendary.reignofnether.research.researchItems.ResearchCastleFlag"
+        },
+        "p": [
+            {
+                "k": "Upgrades this castle to be able to promote an illager unit",
+                "v": "升级这座城堡，使其能够晋升掠夺者单位"
+            },
+            {
+                "k": "to a captain that provides a speed aura to friendly units.",
+                "v": "晋升为队长，给友方单位提供速度光环."
+            },
+            {
+                "k": "Each upgraded castle may only support one captain at a time.",
+                "v": "每座升级的城堡同一时间只能支持一名队长."
+            }
+        ]
+    },
+    {
+        "t": {
+            "name": "com.solegendary.reignofnether.research.researchItems.ResearchDrowned"
+        },
+        "p": [
+            {
+                "k": "Transforms all of your zombies into drowned, which",
+                "v": "将你所有的僵尸转化为溺尸，它们"
+            },
+            {
+                "k": "zombify Villager and Piglin units after killing them.",
+                "v": "在杀死村民和猪灵单位后使其变为僵尸。"
+            },
+            {
+                "k": "Requires a Graveyard.",
+                "v": "需要墓地。"
+            }
+        ]
+    },
+    {
+        "t": {
+            "name": "com.solegendary.reignofnether.research.researchItems.ResearchEvokerVexes"
+        },
+        "p": [
+            {
+                "k": "Unlocks the ability for evokers to summon vexes.",
+                "v": "解锁唤魔者召唤恼鬼的能力。"
+            },
+            {
+                "k": "Requires evokers to have been unlocked.",
+                "v": "需要唤魔者已被解锁。"
+            }
+        ]
+    },
+    {
+        "t": {
+            "name": "com.solegendary.reignofnether.research.researchItems.ResearchFireResistance"
+        },
+        "p": [
+            {
+                "k": "Your units become immune to fire tick damage and magma.",
+                "v": "你的单位免疫火焰灼伤伤害和岩浆伤害。"
+            },
+            {
+                "k": "Standing directly in fire or lava still causes damage.",
+                "v": "直接站在火焰或熔岩中仍然会受到伤害。"
+            }
+        ]
+    },
+    {
+        "t": {
+            "name": "com.solegendary.reignofnether.research.researchItems.ResearchGolemSmithing"
+        },
+        "p": [
+            {
+                "k": "Allows villagers to construct iron golems.",
+                "v": "允许村民直接建造铁傀儡."
+            }
+        ]
+    },
+    {
+        "t": {
+            "name": "com.solegendary.reignofnether.research.researchItems.ResearchHeavyTridents"
+        },
+        "p": [
+            {
+                "k": "Headhunters' tridents knock enemies back on hit.",
+                "v": "猎头者的三叉戟击中敌人时会将其击退."
+            }
+        ]
+    },
+    {
+        "t": {
+            "name": "com.solegendary.reignofnether.research.researchItems.ResearchHoglinCavalry"
+        },
+        "p": [
+            {
+                "k": "Unlocks the ability for headhunters to mount hoglins.",
+                "v": "解锁猎头者骑乘疣猪兽的能力."
+            }
+        ]
+    },
+    {
+        "t": {
+            "name": "com.solegendary.reignofnether.research.researchItems.ResearchHusks"
+        },
+        "p": [
+            {
+                "k": "Transforms all of your zombies into husks,",
+                "v": "将你所有的僵尸转化为尸壳，"
+            },
+            {
+                "k": "granting them +5 health and immunity to sunlight.",
+                "v": "赋予它们+5生命值并免疫阳光。"
+            },
+            {
+                "k": "Requires a Graveyard.",
+                "v": "需要墓地。"
+            }
+        ]
+    },
+    {
+        "t": {
+            "name": "com.solegendary.reignofnether.research.researchItems.ResearchLabLightningRod"
+        },
+        "p": [
+            {
+                "k": "Adds a lightning rod to this lab that can be activated",
+                "v": "为该实验室添加一个避雷针，可以激活"
+            },
+            {
+                "k": "to call lightning to charge creepers and damage enemies.",
+                "v": "用来召唤闪电，充能苦力怕并伤害敌人。"
+            },
+            {
+                "k": "Requires a Dungeon.",
+                "v": "需要地牢。"
+            }
+        ]
+    },
+    {
+        "t": {
+            "name": "com.solegendary.reignofnether.research.researchItems.ResearchLingeringPotions"
+        },
+        "p": [
+            {
+                "k": "Doubles the duration of witches' potion clouds.",
+                "v": "将女巫药水云的持续时间翻倍。"
+            }
+        ]
+    },
+    {
+        "t": {
+            "name": "com.solegendary.reignofnether.research.researchItems.ResearchPillagerCrossbows"
+        },
+        "p": [
+            {
+                "k": "Enchants the crossbows of all pillagers with multishot",
+                "v": "给弩箭附魔多重射击"
+            }
+        ]
+    },
+    {
+        "t": {
+            "name": "com.solegendary.reignofnether.research.researchItems.ResearchPoisonSpiders"
+        },
+        "p": [
+            {
+                "k": "Transforms your Spiders into Cave Spiders,",
+                "v": "将你的蜘蛛转化为洞穴蜘蛛，"
+            },
+            {
+                "k": "Requires a Spider Lair.",
+                "v": "需要蜘蛛巢穴。"
+            }
+        ]
+    },
+    {
+        "t": {
+            "name": "com.solegendary.reignofnether.research.researchItems.ResearchPortalForCivilian"
+        },
+        "p": [
+            {
+                "k": "Convert into a civilian portal, supplying 15 population",
+                "v": "转化为平民传送门，提供15人口上限"
+            },
+            {
+                "k": "and allowing workers to drop resources off here.",
+                "v": "并允许工人在此处存放资源。"
+            }
+        ]
+    },
+    {
+        "t": {
+            "name": "com.solegendary.reignofnether.research.researchItems.ResearchPortalForMilitary"
+        },
+        "p": [
+            {
+                "k": "Convert into a military portal, allowing production",
+                "v": "转化为军事传送门，允许生产"
+            },
+            {
+                "k": "of military units based on the buildings you own.",
+                "v": "基于你拥有的建筑生产军事单位。"
+            }
+        ]
+    },
+    {
+        "t": {
+            "name": "com.solegendary.reignofnether.research.researchItems.ResearchPortalForTransport"
+        },
+        "p": [
+            {
+                "k": "Convert into a transport portal, allowing for instant",
+                "v": "转化为传送门，允许瞬间"
+            },
+            {
+                "k": "teleportation of units to another linked transport portal.",
+                "v": "将单位传送到另一个连接的传送门。"
+            },
+            {
+                "k": "Requires research at a Fortress.",
+                "v": "需要在要塞进行研究。"
+            }
+        ]
+    },
+    {
+        "t": {
+            "name": "com.solegendary.reignofnether.research.researchItems.ResearchRavagerCavalry"
+        },
+        "p": [
+            {
+                "k": "Unlocks the ability for pillagers to mount ravagers,",
+                "v": "解锁掠夺者骑乘劫掠兽的能力，"
+            },
+            {
+                "k": "gaining explosive arrows that shoot upwards like mortar.",
+                "v": "并获得像迫击炮一样向上射出的爆炸箭。"
+            }
+        ]
+    },
+    {
+        "t": {
+            "name": "com.solegendary.reignofnether.research.researchItems.ResearchResourceCapacity"
+        },
+        "p": [
+            {
+                "k": "Raises the resource capacity of workers from 100 to 200",
+                "v": "将工人的资源容量从100提升至200"
+            },
+            {
+                "k": "Workers still auto-return resources when holding above 50",
+                "v": "工人在携带超过50单位资源时仍会自动返还资源"
+            }
+        ]
+    },
+    {
+        "t": {
+            "name": "com.solegendary.reignofnether.research.researchItems.ResearchSilverfish"
+        },
+        "p": [
+            {
+                "k": "Gives your buildings a 10 chance to spawn",
+                "v": "给予你的建筑在方块被破坏时有10%的几率生成"
+            },
+            {
+                "k": "a silverfish whenever a block is destroyed.",
+                "v": "一个蠹虫。"
+            },
+            {
+                "k": "Silverfish have limited lifespans.",
+                "v": "蠹虫有有限的生命期。"
+            },
+            {
+                "k": "Requires a Stronghold.",
+                "v": "需要堡垒。"
+            }
+        ]
+    },
+    {
+        "t": {
+            "name": "com.solegendary.reignofnether.research.researchItems.ResearchSpiderJockeys"
+        },
+        "p": [
+            {
+                "k": "Unlocks the ability for skeletons to mount spiders.",
+                "v": "解锁骷髅骑乘蜘蛛的能力。"
+            },
+            {
+                "k": "Requires a Spider Lair.",
+                "v": "需要蜘蛛巢穴。"
+            }
+        ]
+    },
+    {
+        "t": {
+            "name": "com.solegendary.reignofnether.research.researchItems.ResearchStrays"
+        },
+        "p": [
+            {
+                "k": "Transforms all of your skeletons into",
+                "v": "将你所有的骷髅转化为"
+            },
+            {
+                "k": "strays which fire slowing arrows.",
+                "v": "流浪者，它们射出减速箭。"
+            },
+            {
+                "k": "Requires a Graveyard.",
+                "v": "需要墓地。"
+            }
+        ]
+    },
+    {
+        "t": {
+            "name": "com.solegendary.reignofnether.research.researchItems.ResearchVindicatorAxes"
+        },
+        "p": [
+            {
+                "k": "Upgrades the axes of all vindicators to diamond (+2 damage)",
+                "v": "将所有卫道士的斧头升级为钻石（+2伤害）。"
+            }
+        ]
+    },
+    {
+        "t": {
+            "name": "com.solegendary.reignofnether.research.researchItems.ResearchWitherClouds"
+        },
+        "p": [
+            {
+                "k": "Enemies killed by wither skeletons leave",
+                "v": "被凋零骷髅杀死的敌人会留下"
+            },
+            {
+                "k": "behind a deadly cloud of wither on death.",
+                "v": "致命的凋零云雾。"
+            }
+        ]
+    }
+]

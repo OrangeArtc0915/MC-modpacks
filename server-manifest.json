@@ -1,0 +1,275 @@
+{
+  "name": "Rof-1.0.5-CN-v0.2",
+  "author": "mmm",
+  "version": "1.0",
+  "description": "",
+  "fileApi": "https://github.com/OrangeArtc0915/MC-modpacks/tree/RTS",
+  "files": [
+    {
+      "path": "config/drippyloadingscreen/options.txt",
+      "hash": "3d171a6e718d989c19578c23199d9a0c22304e04"
+    },
+    {
+      "path": "config/fancymenu/assets/1.jpeg",
+      "hash": "1095fec0d3b861213d646bce41a621a437aceb33"
+    },
+    {
+      "path": "config/fancymenu/assets/huangmengjing.png",
+      "hash": "9c66f896bac274a0f9109156ef34b496b6a68f9b"
+    },
+    {
+      "path": "config/fancymenu/assets/mmm.png",
+      "hash": "2bf4b3c8abd2c319918af03bb502e6a87fb32beb"
+    },
+    {
+      "path": "config/fancymenu/assets/orangearc655743.png",
+      "hash": "1284d072924f79ed593f6325fa016ddf50931d7c"
+    },
+    {
+      "path": "config/fancymenu/customizablemenus.txt",
+      "hash": "becf0506a11598157f55da3e7b70734308f7117d"
+    },
+    {
+      "path": "config/fancymenu/customization/title_screen_layout.txt",
+      "hash": "e5a16c80a1201eecf482945d1283a8bbc826db81"
+    },
+    {
+      "path": "config/fancymenu/custom_gui_screens.txt",
+      "hash": "50b4602527a4e3cfea6016ec001f3b68ace1d65c"
+    },
+    {
+      "path": "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget",
+      "hash": "a8003a531295bc72427451a474e17a01fceee51e"
+    },
+    {
+      "path": "config/fancymenu/legacy_checklist.txt",
+      "hash": "f1569161a6ad24cc61b02dece317ea16e351ff1e"
+    },
+    {
+      "path": "config/fancymenu/options.txt",
+      "hash": "d87827ec0fd78218abdd39d678b2feb720e64115"
+    },
+    {
+      "path": "config/fancymenu/ui_themes/dark.json",
+      "hash": "8bc3d8999f5dde0c62b31424d63dc7d046b70ba9"
+    },
+    {
+      "path": "config/fancymenu/ui_themes/light.json",
+      "hash": "fb42def9e33a2792c19002a717318ec733283e8d"
+    },
+    {
+      "path": "config/fancymenu/user_variables.db",
+      "hash": "b41f9d7688944b0d96eaa089a5a5bb74af28d258"
+    },
+    {
+      "path": "config/ferritecore-mixin.toml",
+      "hash": "60c10e465a884efec5ff7e791e124308f7a8a890"
+    },
+    {
+      "path": "config/fml.toml",
+      "hash": "1cf6c38ff6790b3eba43bfad93af73ba0d082eb7"
+    },
+    {
+      "path": "config/forge-client.toml",
+      "hash": "fd55bc2efff3839efb1ba4f292e010e6e5837a01"
+    },
+    {
+      "path": "config/forge-common.toml",
+      "hash": "f76722c529494d7b78ab5ad607fff4463866673b"
+    },
+    {
+      "path": "config/forge-resource-caching.toml",
+      "hash": "d14d4fec6929e794e0ddaa8598023655e9973b17"
+    },
+    {
+      "path": "config/global_data_and_resourcepacks.toml",
+      "hash": "7c6446a12b3f85ca82de3f9e532148da0580f851"
+    },
+    {
+      "path": "config/konkrete/locals/de_de.local",
+      "hash": "02adaf2602f1ba03a9352db3d10a6fac3a02aea5"
+    },
+    {
+      "path": "config/konkrete/locals/en_us.local",
+      "hash": "42badc338e767559db38a67bd3e8020a92000e56"
+    },
+    {
+      "path": "config/konkrete/locals/pl_pl.local",
+      "hash": "adf2ded54b4952ca83af26a1217e2c5db8ac1429"
+    },
+    {
+      "path": "config/konkrete/locals/pt_br.local",
+      "hash": "9c324fb4d33106366e6cbb5400c8c34f11539d34"
+    },
+    {
+      "path": "config/modernfix-common.toml",
+      "hash": "046452d3af87f5c1fd5de5650e3d1b73c930fd92"
+    },
+    {
+      "path": "config/modernfix-mixins.properties",
+      "hash": "7f5a9e4fb6bf0cd76e42bf459bfb71c43a819b90"
+    },
+    {
+      "path": "config/ModernUI/bootstrap.properties",
+      "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "path": "config/ModernUI/client.toml",
+      "hash": "60ede1b1593f1ea03cb104a654c80ba350b419b5"
+    },
+    {
+      "path": "config/ModernUI/common.toml",
+      "hash": "5f56d3216bd8d445572bd96f29d8501982b55761"
+    },
+    {
+      "path": "config/ModernUI/text.toml",
+      "hash": "7244a82a8ef81848740863d32a241cb946bbe8c4"
+    },
+    {
+      "path": "config/oculus.properties",
+      "hash": "0e9a4a6b63adb5de8239bc82b1c4171b0e6f202d"
+    },
+    {
+      "path": "config/openlink/lanconfig.json",
+      "hash": "3fea964036e138d88f167f04adeb067d05a77a2f"
+    },
+    {
+      "path": "config/rubidium-mixins.properties",
+      "hash": "5656ec2a84545a98f28a695a2c73d2e47da15860"
+    },
+    {
+      "path": "config/rubidium-options.json",
+      "hash": "a82e281645d91f18c237b1676e6942ecaed204e6"
+    },
+    {
+      "path": "config/skinlayers.json",
+      "hash": "734feeda8583394bbc92acb6c17281857668a284"
+    },
+    {
+      "path": "config/vaultpatcher_asm/config.json",
+      "hash": "2edc5e204672aa2118badb0404043536e98ed04d"
+    },
+    {
+      "path": "config/vaultpatcher_asm/example.json",
+      "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "path": "config/vaultpatcher_asm/MCRTS.json",
+      "hash": "7536d2edbbd800852cceeebaeb076be4fd53dfdd"
+    },
+    {
+      "path": "fancymenu_data/last_world.fmdata",
+      "hash": "17bc663ee65a712ade2d06dcb41115d1d99ed6d9"
+    },
+    {
+      "path": "global_packs/required_data/reign_of_nether_datapack.zip",
+      "hash": "ddac401a2d5f78720bff5fadaf4ac643a090ba3a"
+    },
+    {
+      "path": "global_packs/required_resources/Invisble World Borders(关闭边境显示).zip",
+      "hash": "bc17d8680ca149d8a5fccc13f2dbc0d3b64906ce"
+    },
+    {
+      "path": "global_packs/required_resources/护眼大补丸1.20-1.21 .zip",
+      "hash": "dcedc2ec5a32174ea09ee66749ab3bac754eeb76"
+    },
+    {
+      "path": "hmclversion.cfg",
+      "hash": "4a75ee01e8737737fa955fed9846c302f6bd700d"
+    },
+    {
+      "path": "log4j2.xml",
+      "hash": "d47d254675d1aee18670aece5ed768e1e631517b"
+    },
+    {
+      "path": "mods/BetterF3-4.0.1-Forge-1.19.2.jar",
+      "hash": "8a97dd1faaa6f2365434b6f5ff910eecc991e22f"
+    },
+    {
+      "path": "mods/cloth-config-8.3.134-forge.jar",
+      "hash": "e2a3a4e9eeae37b7e79aa8e72bb2834675fe4fe5"
+    },
+    {
+      "path": "mods/CustomSkinLoader_ForgeV2-14.22.jar",
+      "hash": "d102be0f714f3df9a071fdf5b50edb06222b2c38"
+    },
+    {
+      "path": "mods/drippyloadingscreen_forge_3.0.9_MC_1.19.2.jar",
+      "hash": "b366b36ca9ad1b8f04bc96d9aad82fdf2406bceb"
+    },
+    {
+      "path": "mods/fancymenu_forge_3.3.2_MC_1.19.2.jar",
+      "hash": "289f98d41e7fb78667cae8eb85b075a50921942e"
+    },
+    {
+      "path": "mods/ferritecore-5.0.3-forge.jar",
+      "hash": "59245ec84ca1e3639237f5a04fe6f7556a9ec2bb"
+    },
+    {
+      "path": "mods/global_packs-forge-1.19.2-1.14.5_forge.jar",
+      "hash": "9985d0bc6f7a842ce15e5d04eb1986f025f02e59"
+    },
+    {
+      "path": "mods/konkrete_forge_1.8.0_MC_1.19-1.19.2.jar",
+      "hash": "07104e7697fc0d9dc8bb2addb252cdaf1f7a973c"
+    },
+    {
+      "path": "mods/melody_forge_1.0.1_MC_1.19.2.jar",
+      "hash": "0f00b9164b105d78e696fa6bda421005e39b15d7"
+    },
+    {
+      "path": "mods/modernfix-forge-5.18.1+mc1.19.2.jar",
+      "hash": "532d4dcc05095d7aa2289e4758e5c8265c759c9b"
+    },
+    {
+      "path": "mods/ModernUI-Forge-1.19.2-3.10.1.2-universal.jar",
+      "hash": "c1fdd05827ab50a85e51736313f67cc39961dd79"
+    },
+    {
+      "path": "mods/oculus-mc1.19.2-1.6.9.jar",
+      "hash": "f628699bc411eecc341845fce5c95f71c2588d0d"
+    },
+    {
+      "path": "mods/openlink-forge-1.19.2-1.0.0.jar",
+      "hash": "f04618b38e6d9d50d2f960369653b944d801e2f2"
+    },
+    {
+      "path": "mods/reignofnether-1.0.5.jar",
+      "hash": "4d3cbbaeaa1634252bb7272163ace94631f47065"
+    },
+    {
+      "path": "mods/rubidium-mc1.19.2-0.6.2c.jar",
+      "hash": "e67ef350e8247d83b33459dae8951f396ae341df"
+    },
+    {
+      "path": "mods/skinlayers3d-forge-1.7.4-mc1.19.2.jar",
+      "hash": "2dab9d8943e24c18985b5443446d5ed53b119cb3"
+    },
+    {
+      "path": "mods/vaultpatcher-all-1.4.3+3.jar",
+      "hash": "0a0a170c310d8f0381ac12941c98a5b7d295cf10"
+    },
+    {
+      "path": "options.txt",
+      "hash": "acac9193c4bcb05e4bddc2797f6f151461cd6fde"
+    },
+    {
+      "path": "shaderpacks/BSLOriginal_v8.3.zip",
+      "hash": "f30ed3fde3b8d7f303fe8caab0a21730de9e2d8c"
+    },
+    {
+      "path": "shaderpacks/BSLOriginal_v8.3.zip.txt",
+      "hash": "12da6e60b649fb26d32310be6c3c7c2e3cc63e17"
+    }
+  ],
+  "addons": [
+    {
+      "id": "game",
+      "version": "1.19.2"
+    },
+    {
+      "id": "forge",
+      "version": "43.4.4"
+    }
+  ]
+}
